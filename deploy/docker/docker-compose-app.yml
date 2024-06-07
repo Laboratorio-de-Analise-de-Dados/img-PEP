@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+    env-img:
+        build: 
+            dockerfile: ./Dockerfile
+            context: .
+        container_name: env-img
+        volumes:
+            - ./../app:/app
+        networks:
+            - default
+        ports:
+            - 8502:8502
+
+volumes:
+    persistent:
