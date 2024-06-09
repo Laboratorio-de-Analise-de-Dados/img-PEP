@@ -1,0 +1,19 @@
+# Iniciando o deploy
+0.0.0
+
+# Inserindo imagens via upload
+0.1.0
+
+# Filtro de canal verde inserido
+0.2.0
+
+--
+# Versionamento semântico
+
+– 0 (Major) – controle de compatibilidade.
+
+– 0 (Minor) – controle de funcionalidade.
+
+– 0 (Patch) – controle de correção de bugs.
+
+– Pré-release – versão candidata.

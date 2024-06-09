@@ -1,0 +1,171 @@
+.
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── 6e4036981de7a831adf29fd539e8c9ebd7abe0
+│   │   ├── 01
+│   │   │   └── 35b1c29054a9a7eb37e3d8a0f6ab4d00ab1022
+│   │   ├── 06
+│   │   │   └── ed1c8902a087edf07dd543a3de50675e785b5a
+│   │   ├── 21
+│   │   │   └── 6cdf00c3e06b6eb08f3a55ab68e0faff49f6b3
+│   │   ├── 22
+│   │   │   └── 1dc10311df437a0dde07882a37852eb43f937a
+│   │   ├── 24
+│   │   │   └── a00505c49555abb3bc401df50fd1e399f8c8e9
+│   │   ├── 28
+│   │   │   └── 4564dbbc39fc50080cb4bbf2c6a3c3da827720
+│   │   ├── 29
+│   │   │   └── 4442ed66285d76cdd390d3dc6fdd6eb9056115
+│   │   ├── 31
+│   │   │   └── 5e68f253dd2517bb1af5bf705749841b10394e
+│   │   ├── 35
+│   │   │   └── 913ec2a10ec8593a99e29b76b9c706b945146a
+│   │   ├── 3e
+│   │   │   └── da398ae907c9ba64b821888455bf7c30d23597
+│   │   ├── 43
+│   │   │   └── ac1c0bf2e2a77894add88692d9991dba3a43de
+│   │   ├── 55
+│   │   │   └── 63a246b1d375039015806f21fc6747a74f81bf
+│   │   ├── 58
+│   │   │   └── 19a0bad7604a5889e4d78a8998bb9c221616a1
+│   │   ├── 5c
+│   │   │   └── ccc419a2598e064850b48e0bd7a450f93032cb
+│   │   ├── 63
+│   │   │   └── dc1dacebba39a04538ab01d6f0cbc819d5227a
+│   │   ├── 66
+│   │   │   └── e7dda4e22280ffd393b2357fa44f6073c75678
+│   │   ├── 69
+│   │   │   └── d5e71381db2925122fd7f30749153dfcf9ec05
+│   │   ├── 6a
+│   │   │   └── 2f38fcecf180ab0ac3fe4fe7b7daaa2598a4b4
+│   │   ├── 6e
+│   │   │   └── d59082e20576a7d1cc154e6c6fd446090d5cd2
+│   │   ├── 74
+│   │   │   ├── 5acea6529287c3340a15890cfebb8d53a2379a
+│   │   │   └── cfcd3f9a409c6ec1ca003f21f18b0bfeb3c8c4
+│   │   ├── 76
+│   │   │   └── 14a0b5d3c414b3791977dd131056983c1aa5b2
+│   │   ├── 80
+│   │   │   └── 4dc8372269da81367afe02e6e94d96b3018f66
+│   │   ├── 87
+│   │   │   └── 8a9ee13c18a6591cc9f90671ae557a141cd68d
+│   │   ├── 8a
+│   │   │   └── 25320e66bb91da398daf7d2a4bf17185d9cab7
+│   │   ├── 8f
+│   │   │   └── 2bf35bf9c9dfc0a593b2ab0787749fa2093d6e
+│   │   ├── 94
+│   │   │   └── 9e60e492166575eb583245df981ea1d7fa4af9
+│   │   ├── a7
+│   │   │   └── 51d324f9a3c8e84dcae0fa9912e37db2bcbd42
+│   │   ├── ac
+│   │   │   ├── 263e9b35c9e10f29d62865a7e00e3f4a4729d0
+│   │   │   └── baee0f9a78e13839bd2b0beac3e24ceb3ecc19
+│   │   ├── ae
+│   │   │   └── 18cded145d8e2eccc315c8545c1ed7599a0cc0
+│   │   ├── b3
+│   │   │   └── 9db362c1a28fc8515a4670795411ca1526ba61
+│   │   ├── bb
+│   │   │   └── 83f26d203b205256212babdeeb42268842cdf9
+│   │   ├── c8
+│   │   │   └── 70c7e6301f264830fc761361216542166c6b8b
+│   │   ├── e6
+│   │   │   └── a61fe44fa781ee163c120cb67515cfad7103f2
+│   │   ├── ed
+│   │   │   └── 2c9f67eef165135565501391eb47a3cab5258d
+│   │   ├── f1
+│   │   │   └── 6a81ae4605e4aae2c3c081cd233104515eaee8
+│   │   ├── f5
+│   │   │   └── 5da82c8f12602ea67dbc1c26539b0667ebe01e
+│   │   ├── f7
+│   │   │   └── 49f1c91682891ac22cbe230fd4e5396fab4800
+│   │   ├── fb
+│   │   │   └── b6b2b6834c329059b454cd341d280e59055cd1
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-d8a2ef5aa19f526db0a8172b33a90e1baf157cfa.idx
+│   │       └── pack-d8a2ef5aa19f526db0a8172b33a90e1baf157cfa.pack
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
+├── LICENSE
+├── README.md
+├── VERSION
+├── commit_git.sh
+├── deploy
+│   ├── app
+│   │   ├── .streamlit
+│   │   │   └── config.toml
+│   │   ├── data
+│   │   │   ├── DataFrame
+│   │   │   │   └── df_estruturada
+│   │   │   ├── Despesas_2024-04-20.csv
+│   │   │   ├── __pycache__
+│   │   │   │   └── const.cpython-37.pyc
+│   │   │   ├── const.py
+│   │   │   ├── img
+│   │   │   │   └── DataLab_Logo_2020-02-23.jpg
+│   │   │   └── sqlite
+│   │   │       └── data.db
+│   │   ├── main.py
+│   │   └── src
+│   │       ├── __pycache__
+│   │       │   ├── pages.cpython-37.pyc
+│   │       │   ├── sqlite_execute.cpython-37.pyc
+│   │       │   └── uteis_functions.cpython-37.pyc
+│   │       └── pages.py
+│   ├── docker
+│   │   ├── Dockerfile
+│   │   ├── docker-compose-app.yml
+│   │   └── requirements.txt
+│   ├── run_docker.sh
+│   └── testes_python.sh
+├── estrutura_diretorio.txt
+└── notebooks
+    ├── CHO_GTS_745_05_06_24.ipynb
+    ├── CHO_VIR_745_05_06_24.ipynb
+    ├── CHO_VIR_745_CNTRL_05_06_24.ipynb
+    ├── ICAM_CNTRL_05_06_24.ipynb
+    ├── ICAM_GTS_05_06_24.ipynb
+    ├── ICAM_VIR_05_06_24.ipynb
+    ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
+    └── filtro_img_2024_06_08.ipynb
+
+68 directories, 100 files
