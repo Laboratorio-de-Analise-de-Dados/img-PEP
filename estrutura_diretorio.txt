@@ -1,7 +1,9 @@
 .
 ├── .git
 │   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
 │   ├── HEAD
+│   ├── ORIG_HEAD
 │   ├── branches
 │   ├── config
 │   ├── description
@@ -42,6 +44,8 @@
 │   │   │   └── d72bd0609c6d3d1166443e6ea8f910c3b9ecfd
 │   │   ├── 14
 │   │   │   └── aef17181879c701bfa9b6128853d528d3ea917
+│   │   ├── 18
+│   │   │   └── 17f9af7b5b5b76593017c2771405531c59ce43
 │   │   ├── 21
 │   │   │   ├── 6cdf00c3e06b6eb08f3a55ab68e0faff49f6b3
 │   │   │   └── 770e30527150e7db8fd718d9c6feba7e1a00d4
@@ -54,31 +58,45 @@
 │   │   ├── 29
 │   │   │   └── 4442ed66285d76cdd390d3dc6fdd6eb9056115
 │   │   ├── 31
-│   │   │   └── 5e68f253dd2517bb1af5bf705749841b10394e
+│   │   │   ├── 5e68f253dd2517bb1af5bf705749841b10394e
+│   │   │   └── d4e3105d1068bb26d339d98cee8f2e4e0908c2
 │   │   ├── 35
 │   │   │   └── 913ec2a10ec8593a99e29b76b9c706b945146a
 │   │   ├── 3e
-│   │   │   └── da398ae907c9ba64b821888455bf7c30d23597
+│   │   │   ├── da398ae907c9ba64b821888455bf7c30d23597
+│   │   │   └── e75af66ce05059d661fbddff687f7964498b75
 │   │   ├── 43
 │   │   │   └── ac1c0bf2e2a77894add88692d9991dba3a43de
+│   │   ├── 46
+│   │   │   └── 57bd4b9b4ddf591bdb46ea4bca1fff21129371
 │   │   ├── 55
 │   │   │   └── 63a246b1d375039015806f21fc6747a74f81bf
 │   │   ├── 58
 │   │   │   └── 19a0bad7604a5889e4d78a8998bb9c221616a1
+│   │   ├── 5b
+│   │   │   └── 24dc4f3327f09e2f178d07a313701dee0ffbdb
 │   │   ├── 5c
-│   │   │   └── ccc419a2598e064850b48e0bd7a450f93032cb
+│   │   │   ├── ccc419a2598e064850b48e0bd7a450f93032cb
+│   │   │   └── eb22e4a17573495a3bfbc433d50e23efa0a7ea
 │   │   ├── 5d
 │   │   │   └── f7a099ab0870dd02812d4311a32f4834f78b9c
 │   │   ├── 63
 │   │   │   └── dc1dacebba39a04538ab01d6f0cbc819d5227a
 │   │   ├── 66
 │   │   │   └── e7dda4e22280ffd393b2357fa44f6073c75678
+│   │   ├── 67
+│   │   │   └── 934845ac37b5a06b493532ba4f13537c4bc2ae
 │   │   ├── 69
 │   │   │   └── d5e71381db2925122fd7f30749153dfcf9ec05
 │   │   ├── 6a
 │   │   │   └── 2f38fcecf180ab0ac3fe4fe7b7daaa2598a4b4
 │   │   ├── 6e
 │   │   │   └── d59082e20576a7d1cc154e6c6fd446090d5cd2
+│   │   ├── 72
+│   │   │   └── 07110a1e7e391ba37d65152c262dd379b80967
+│   │   ├── 73
+│   │   │   ├── 19f5b001834d20bdd4b641da362d496d43fe12
+│   │   │   └── 6a6338d4a52abcf05f01786e129345df272d44
 │   │   ├── 74
 │   │   │   ├── 5acea6529287c3340a15890cfebb8d53a2379a
 │   │   │   └── cfcd3f9a409c6ec1ca003f21f18b0bfeb3c8c4
@@ -86,6 +104,8 @@
 │   │   │   └── 14a0b5d3c414b3791977dd131056983c1aa5b2
 │   │   ├── 78
 │   │   │   └── 01b3ba187454a35e2f21cc9935791768a13af7
+│   │   ├── 7d
+│   │   │   └── 68bd35c217f0228de962c452fbabb6dfa2a243
 │   │   ├── 7f
 │   │   │   └── b2ac3804a764c2bbd232a1fe449f081bff0fdd
 │   │   ├── 80
@@ -94,6 +114,8 @@
 │   │   │   └── 8a9ee13c18a6591cc9f90671ae557a141cd68d
 │   │   ├── 8a
 │   │   │   └── 25320e66bb91da398daf7d2a4bf17185d9cab7
+│   │   ├── 8d
+│   │   │   └── ab36d5f4bf232bda719315c90c0d94d0784ddd
 │   │   ├── 8f
 │   │   │   ├── 21bfb57b66c0ffe9e3cc37feefe288274ac014
 │   │   │   └── 2bf35bf9c9dfc0a593b2ab0787749fa2093d6e
@@ -105,6 +127,9 @@
 │   │   │   └── 031b8d03abcae1f17485b2a63664b3140671c6
 │   │   ├── 9b
 │   │   │   └── d5355174718928deed0579368cfeea235b4bfe
+│   │   ├── a5
+│   │   │   ├── 2778a2cc312f1eb6ae15d94a9b9d7a170b4984
+│   │   │   └── 2fb72f59dc023f55f4bac55bbd3a03475668cd
 │   │   ├── a7
 │   │   │   └── 51d324f9a3c8e84dcae0fa9912e37db2bcbd42
 │   │   ├── ac
@@ -124,12 +149,18 @@
 │   │   │   └── e04569dc4b98192d921c3696598e2cdb77993e
 │   │   ├── dd
 │   │   │   └── 48ecd7a30000806dff66d2bbc27f3f4e7309be
+│   │   ├── df
+│   │   │   └── 10a3f1d0ff210abda7c80ac1c18545cbfedb2c
+│   │   ├── e1
+│   │   │   └── 89b1de178348b1613a3bd94022efc7996d60df
 │   │   ├── e6
 │   │   │   └── a61fe44fa781ee163c120cb67515cfad7103f2
 │   │   ├── ed
 │   │   │   └── 2c9f67eef165135565501391eb47a3cab5258d
 │   │   ├── f1
 │   │   │   └── 6a81ae4605e4aae2c3c081cd233104515eaee8
+│   │   ├── f4
+│   │   │   └── 7ee1b279efc5918bc8a2cd848f9460aa40bbf5
 │   │   ├── f5
 │   │   │   └── 5da82c8f12602ea67dbc1c26539b0667ebe01e
 │   │   ├── f6
@@ -158,6 +189,9 @@
 ├── commit_git.sh
 ├── deploy
 │   ├── app
+│   │   ├── data
+│   │   │   └── img
+│   │   │       └── icon.png
 │   │   ├── main.py
 │   │   └── src
 │   │       ├── __pycache__
@@ -180,4 +214,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-74 directories, 106 files
+88 directories, 126 files

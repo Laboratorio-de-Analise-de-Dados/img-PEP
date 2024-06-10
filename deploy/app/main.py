@@ -8,10 +8,10 @@ def dashboard() -> None:
         Função de inicialização do dashboard.
     '''
 
-    # page_icon = './data/img/astral_icon.png'
+    page_icon = './data/img/icon.png'
     st.set_page_config(
         page_title="IMG-PEP",
-        # page_icon=page_icon,
+        page_icon=page_icon,
         layout="wide",
     )
     st.markdown("""
