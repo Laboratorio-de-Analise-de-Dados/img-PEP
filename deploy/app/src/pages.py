@@ -5,6 +5,9 @@ import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
 
+from src.functions import Functions
+
+
 def img_to_df(img, por_retirada) -> pd.DataFrame:
     img_array = np.array(img, dtype="float64")/255
     img_df_orig = pd.DataFrame(
@@ -40,7 +43,6 @@ def entrada_img() -> None:
     '''
     Determina a página de valores
     '''
-
     st.sidebar.markdown(
         "<h3>Selecione Filtro (%)</h3>",
         unsafe_allow_html=True
@@ -52,9 +54,6 @@ def entrada_img() -> None:
                             value=1.0,
                             step=0.000001
                         )
-    
-
-    df_insert = False
 
     st.sidebar.markdown(
         "<h3>Selecione Imagem</h3>",
@@ -92,7 +91,10 @@ def entrada_img() -> None:
             )
             st.image(img_df_2)
 
-        df_insert = True
-
     st.markdown("---")
+
+    # Logo data.lab()
+    funct = Functions()
+    funct.logo_datalab()
+
     return None

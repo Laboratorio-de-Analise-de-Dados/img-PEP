@@ -27,6 +27,7 @@ def dashboard() -> None:
 
     st.title("Análise de Imagens")
 
+    # Página de análise
     entrada_img()
 
     return None
