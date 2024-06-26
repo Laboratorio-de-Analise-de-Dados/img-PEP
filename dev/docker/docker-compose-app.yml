@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+    env-img-dev:
+        build: 
+            dockerfile: ./Dockerfile
+            context: .
+        container_name: env-img-dev
+        volumes:
+            - ./../app:/app
+        networks:
+            - default
+        ports:
+            - 8503:8503
+
+volumes:
+    persistent:
