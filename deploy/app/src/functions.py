@@ -1,3 +1,4 @@
+import pandas as pd
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,3 +24,35 @@ class Functions():
             st.write("DataLab()")
             st.pyplot(fig=plt)
         return None
+    
+
+    def img_to_df(_self, img, por_retirada) -> pd.DataFrame:
+        img_array = np.array(img, dtype="float64")/255
+        img_df_orig = pd.DataFrame(
+                            columns=["red"],
+                            data=img_array[:,:,0].reshape(-1,1)
+                        )
+        img_df_orig["green"] = img_array[:,:,1].reshape(-1,1)
+        img_df_orig["blue"] = img_array[:,:,2].reshape(-1,1)
+
+        img_df_original_green = img_df_orig['green'].copy()
+        freq = (
+            img_df_original_green.value_counts(normalize=True)
+            .to_frame()
+            .reset_index()
+            .sort_values('green', ascending=False)
+        )
+
+        soma = 0
+        for n in range(len(freq)):
+            soma += freq.iloc[n,1]
+            if soma >= por_retirada:
+                break
+        threshold = freq.iloc[n,0]
+        
+        img_df_fil = img_df_orig.copy()
+
+        if por_retirada != 1.0:
+            img_df_fil.loc[img_df_fil["green"] >= threshold, "green"] = 0.0
+
+        return (img_df_orig, img_df_fil)
