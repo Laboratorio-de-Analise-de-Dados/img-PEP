@@ -54,6 +54,8 @@
 │   │   │   └── f056084c089b2b6136da6da9394d8b93cc1a57
 │   │   ├── 14
 │   │   │   └── aef17181879c701bfa9b6128853d528d3ea917
+│   │   ├── 15
+│   │   │   └── d19e44e853443a2f81abd42e92961f74350050
 │   │   ├── 18
 │   │   │   └── 17f9af7b5b5b76593017c2771405531c59ce43
 │   │   ├── 1f
@@ -96,6 +98,8 @@
 │   │   │   └── ac1c0bf2e2a77894add88692d9991dba3a43de
 │   │   ├── 46
 │   │   │   └── 57bd4b9b4ddf591bdb46ea4bca1fff21129371
+│   │   ├── 4a
+│   │   │   └── 1e43aa5f5c98c3a6c52f770fae83248642d792
 │   │   ├── 4e
 │   │   │   └── 0217ea3ab9453c4bbc82e5b33667eb9982b88f
 │   │   ├── 50
@@ -158,13 +162,16 @@
 │   │   │   └── ab36d5f4bf232bda719315c90c0d94d0784ddd
 │   │   ├── 8f
 │   │   │   ├── 21bfb57b66c0ffe9e3cc37feefe288274ac014
-│   │   │   └── 2bf35bf9c9dfc0a593b2ab0787749fa2093d6e
+│   │   │   ├── 2bf35bf9c9dfc0a593b2ab0787749fa2093d6e
+│   │   │   └── b935f3ee8f627face310ad2b8c386dbe7d45ad
 │   │   ├── 92
 │   │   │   └── a70d6d0c31ce0bb5f5f1362fdf8e08520346e5
 │   │   ├── 94
 │   │   │   └── 9e60e492166575eb583245df981ea1d7fa4af9
 │   │   ├── 95
 │   │   │   └── 031b8d03abcae1f17485b2a63664b3140671c6
+│   │   ├── 97
+│   │   │   └── 74b4e850cd4dd0f110dfcce5ec58a31c217c60
 │   │   ├── 9b
 │   │   │   └── d5355174718928deed0579368cfeea235b4bfe
 │   │   ├── a0
@@ -184,8 +191,15 @@
 │   │   │   └── eda52c1676c67d0a13e049c7e02251f64992e7
 │   │   ├── ae
 │   │   │   └── 18cded145d8e2eccc315c8545c1ed7599a0cc0
+│   │   ├── b0
+│   │   │   └── d65da133387b58257b19d670c40549646c1125
 │   │   ├── b3
+│   │   │   ├── 982b15ca2b14c47d1af8f76a9c1c3bf742517d
 │   │   │   └── 9db362c1a28fc8515a4670795411ca1526ba61
+│   │   ├── b4
+│   │   │   └── 876d76081ce9dbc40966e29c0147a0e950d0fc
+│   │   ├── b8
+│   │   │   └── 80e125764cf6fbc3451e21c2a157f78ef603bd
 │   │   ├── b9
 │   │   │   └── b628d064b696702c5106a9430cad51fdf50c68
 │   │   ├── bb
@@ -227,7 +241,8 @@
 │   │   ├── f4
 │   │   │   └── 7ee1b279efc5918bc8a2cd848f9460aa40bbf5
 │   │   ├── f5
-│   │   │   └── 5da82c8f12602ea67dbc1c26539b0667ebe01e
+│   │   │   ├── 5da82c8f12602ea67dbc1c26539b0667ebe01e
+│   │   │   └── 94ed1b8db9c5c176f77194f2426cec53a0699e
 │   │   ├── f6
 │   │   │   └── dadbd1b1ed2a13516ab61e5ec6b1b214714b4d
 │   │   ├── f7
@@ -304,4 +319,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-125 directories, 179 files
+131 directories, 188 files
