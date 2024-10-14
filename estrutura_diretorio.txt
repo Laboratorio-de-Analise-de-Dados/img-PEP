@@ -58,6 +58,8 @@
 │   │   │   └── d19e44e853443a2f81abd42e92961f74350050
 │   │   ├── 18
 │   │   │   └── 17f9af7b5b5b76593017c2771405531c59ce43
+│   │   ├── 1d
+│   │   │   └── 15f8320600f2e761399dcc4a72551b8e13ab5f
 │   │   ├── 1f
 │   │   │   └── 86a6780d71e9e40002118a26c96acd1e49f2bc
 │   │   ├── 20
@@ -115,6 +117,8 @@
 │   │   │   └── eb22e4a17573495a3bfbc433d50e23efa0a7ea
 │   │   ├── 5d
 │   │   │   └── f7a099ab0870dd02812d4311a32f4834f78b9c
+│   │   ├── 61
+│   │   │   └── 2ca63602add4df6880c36bcd4249fc03cf9034
 │   │   ├── 63
 │   │   │   └── dc1dacebba39a04538ab01d6f0cbc819d5227a
 │   │   ├── 66
@@ -234,6 +238,8 @@
 │   │   │   └── 01064747e4d9af56a6a904698911210bab381e
 │   │   ├── ed
 │   │   │   └── 2c9f67eef165135565501391eb47a3cab5258d
+│   │   ├── f0
+│   │   │   └── 35766c0d961d831d4ec6b2d79497666a8be329
 │   │   ├── f1
 │   │   │   └── 6a81ae4605e4aae2c3c081cd233104515eaee8
 │   │   ├── f3
@@ -319,4 +325,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-131 directories, 188 files
+134 directories, 191 files
