@@ -8,7 +8,7 @@ def dashboard() -> None:
         Função de inicialização do dashboard.
     '''
 
-    page_icon = './data/img/icon.png'
+    page_icon = './data/img/icon_dev.png'
     st.set_page_config(
         page_title="IMG-PEP-DEV",
         page_icon=page_icon,
@@ -25,7 +25,7 @@ def dashboard() -> None:
         </style>
         """, unsafe_allow_html=True)
 
-    st.title("Análise de Imagens")
+    st.title("Análise de Imagens - Desenvolvimento")
 
     # Página de análise
     entrada_img()

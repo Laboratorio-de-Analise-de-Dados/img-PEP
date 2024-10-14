@@ -71,6 +71,8 @@
 │   │   │   └── 4564dbbc39fc50080cb4bbf2c6a3c3da827720
 │   │   ├── 29
 │   │   │   └── 4442ed66285d76cdd390d3dc6fdd6eb9056115
+│   │   ├── 2e
+│   │   │   └── ccab19a1b3e56a5dc23891e9d8b8efec0fd5bd
 │   │   ├── 30
 │   │   │   └── deb48719383e354f817039b6603ff187086c57
 │   │   ├── 31
@@ -142,7 +144,8 @@
 │   │   │   └── 68bd35c217f0228de962c452fbabb6dfa2a243
 │   │   ├── 7f
 │   │   │   ├── 43a28b633e3b68660be62214eee7c1e1f9ec65
-│   │   │   └── b2ac3804a764c2bbd232a1fe449f081bff0fdd
+│   │   │   ├── b2ac3804a764c2bbd232a1fe449f081bff0fdd
+│   │   │   └── f9717fe2b6c8d73be094cf2fe9a7b10e60e455
 │   │   ├── 80
 │   │   │   └── 4dc8372269da81367afe02e6e94d96b3018f66
 │   │   ├── 87
@@ -193,6 +196,8 @@
 │   │   │   └── f6b0a817a2e21ade03c1b071f5c9ccb669d77c
 │   │   ├── c8
 │   │   │   └── 70c7e6301f264830fc761361216542166c6b8b
+│   │   ├── c9
+│   │   │   └── 94f330abb31180ddeff65e384e59feb4aebb66
 │   │   ├── cf
 │   │   │   └── 7f510c3d21715ffff48760b60962b411a3c549
 │   │   ├── d8
@@ -211,10 +216,14 @@
 │   │   │   └── 77551a94a13535c06a93a1fdea092682edf051
 │   │   ├── e6
 │   │   │   └── a61fe44fa781ee163c120cb67515cfad7103f2
+│   │   ├── e8
+│   │   │   └── 01064747e4d9af56a6a904698911210bab381e
 │   │   ├── ed
 │   │   │   └── 2c9f67eef165135565501391eb47a3cab5258d
 │   │   ├── f1
 │   │   │   └── 6a81ae4605e4aae2c3c081cd233104515eaee8
+│   │   ├── f3
+│   │   │   └── fa258fb6fd499dc6e591ce679c2c5cb4b1e032
 │   │   ├── f4
 │   │   │   └── 7ee1b279efc5918bc8a2cd848f9460aa40bbf5
 │   │   ├── f5
@@ -269,7 +278,8 @@
 │   │   ├── data
 │   │   │   └── img
 │   │   │       ├── DataLab_Logo_2020-02-23.jpg
-│   │   │       └── icon.png
+│   │   │       ├── icon.png
+│   │   │       └── icon_dev.png
 │   │   ├── main.py
 │   │   └── src
 │   │       ├── __pycache__
@@ -294,4 +304,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-121 directories, 173 files
+125 directories, 179 files
