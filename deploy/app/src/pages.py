@@ -4,6 +4,7 @@ import seaborn as sns
 import streamlit as st
 from PIL import Image
 import matplotlib.pyplot as plt
+from datetime import date
 
 from src.functions import Functions
 
@@ -35,6 +36,17 @@ def entrada_img() -> None:
                                                 type=['tif'], 
                                                 accept_multiple_files=True
     )
+    data_dict = {
+        "File Name": np.nan,
+        "Filter": np.nan,
+        "Original MFI": np.nan,
+        "Filtered MFI": np.nan,
+    }
+    df_excel = pd.DataFrame(
+        index=[1],
+        data=data_dict
+    )
+    c = 0
     for uppload_file in uppload_files:
         if uppload_file is not None:
 
@@ -43,7 +55,7 @@ def entrada_img() -> None:
 
             col = st.columns((1,3.5,.5))
             with col[0]:
-                df_1, df_2 = funct.img_to_df(img=img, por_retirada=filtro)
+                df_1, df_2 = funct.img_to_df(_img=img, por_retirada=filtro)
 
                 st.markdown(
                     f"<h4>Filtro: {filtro:.6f}</h4>",
@@ -66,7 +78,37 @@ def entrada_img() -> None:
                     np.array(img).shape[2],
                 )
                 st.image(img_df_2, width=800)
+        c += 1
+        data_dict_img = {
+            "File Name": uppload_file.name,
+            "Filter": f"{filtro:.6f}",
+            "Original MFI": f"{df_1['green'].mean():.6f}",
+            "Filtered MFI": f"{df_2['green'].mean():.6f}",
+        }
+        df_excel_img = pd.DataFrame(
+            index=[c],
+            data=data_dict_img
+        )
+
+        df_excel = pd.concat([df_excel, df_excel_img])
+
         st.markdown("---")
+
+    if c != 0:
+        df_excel = df_excel.dropna()
+        st.dataframe(df_excel)
+
+        df_xlsx = funct.to_excel_personal(df_excel)
+
+        
+        today = date.today()
+        link = f'./data/xlsx/img_{today}.xlsx'
+
+        st.download_button(
+            label='Download',
+            data=df_xlsx,
+            file_name=link[12:],
+        )
 
     funct.logo_datalab()
 

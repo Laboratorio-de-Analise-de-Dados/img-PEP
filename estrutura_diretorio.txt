@@ -89,6 +89,8 @@
 │   │   │   └── 913ec2a10ec8593a99e29b76b9c706b945146a
 │   │   ├── 38
 │   │   │   └── 74d7af01cc5aff15de1f42216dd7e921e51aa6
+│   │   ├── 3c
+│   │   │   └── 64077fad942558c5b0fb38e30adda728653536
 │   │   ├── 3d
 │   │   │   └── a87911b12bdb7c95d710c13c997051a99b22ad
 │   │   ├── 3e
@@ -106,6 +108,8 @@
 │   │   │   └── 0217ea3ab9453c4bbc82e5b33667eb9982b88f
 │   │   ├── 50
 │   │   │   └── 33c39c0eb3bd977829ebae3abd75a8c86cbd04
+│   │   ├── 51
+│   │   │   └── 336554e1a76fa8f44b072d67dbd425dd3331d5
 │   │   ├── 55
 │   │   │   └── 63a246b1d375039015806f21fc6747a74f81bf
 │   │   ├── 58
@@ -133,6 +137,8 @@
 │   │   │   └── 90246652efff58189868d29976a68d22135520
 │   │   ├── 6e
 │   │   │   └── d59082e20576a7d1cc154e6c6fd446090d5cd2
+│   │   ├── 70
+│   │   │   └── cb9c6f0d68b97755bac11b3d8e6456799ff6fe
 │   │   ├── 72
 │   │   │   ├── 07110a1e7e391ba37d65152c262dd379b80967
 │   │   │   └── 6d019dd758e006c8cf673d648b5a5462e6bba2
@@ -145,7 +151,8 @@
 │   │   ├── 76
 │   │   │   └── 14a0b5d3c414b3791977dd131056983c1aa5b2
 │   │   ├── 78
-│   │   │   └── 01b3ba187454a35e2f21cc9935791768a13af7
+│   │   │   ├── 01b3ba187454a35e2f21cc9935791768a13af7
+│   │   │   └── 68d0ca32bdb51db6ff0543f148ce43d9a0c7fc
 │   │   ├── 7a
 │   │   │   └── ed85f41fc6c5ad4444edb9c6258dffa3b1f1af
 │   │   ├── 7d
@@ -178,6 +185,8 @@
 │   │   │   └── 74b4e850cd4dd0f110dfcce5ec58a31c217c60
 │   │   ├── 9b
 │   │   │   └── d5355174718928deed0579368cfeea235b4bfe
+│   │   ├── 9c
+│   │   │   └── 564c6a10d68c86fd8844ee9cbd4b09bf3ba89b
 │   │   ├── a0
 │   │   │   └── 7335f30299b7eee8c5fbd85328589481f1a2a3
 │   │   ├── a3
@@ -210,6 +219,8 @@
 │   │   │   └── 83f26d203b205256212babdeeb42268842cdf9
 │   │   ├── bf
 │   │   │   └── 2d4cf9df6e983061924a6b4e48280fb40a2229
+│   │   ├── c0
+│   │   │   └── 9c65919419bdbb288b29abe1ccf0c0bf3455f5
 │   │   ├── c1
 │   │   │   └── f6b0a817a2e21ade03c1b071f5c9ccb669d77c
 │   │   ├── c8
@@ -218,6 +229,8 @@
 │   │   │   └── 94f330abb31180ddeff65e384e59feb4aebb66
 │   │   ├── cf
 │   │   │   └── 7f510c3d21715ffff48760b60962b411a3c549
+│   │   ├── d0
+│   │   │   └── 9cf9dbd53ef1420e70591f14c3fab0f77a950d
 │   │   ├── d8
 │   │   │   └── ea0fdc066cc5042aea95a801de32c3b1ead81d
 │   │   ├── d9
@@ -226,6 +239,8 @@
 │   │   │   └── e04569dc4b98192d921c3696598e2cdb77993e
 │   │   ├── dd
 │   │   │   └── 48ecd7a30000806dff66d2bbc27f3f4e7309be
+│   │   ├── de
+│   │   │   └── e2b34c317ebb5ab0992a36cdf560a160e5cf89
 │   │   ├── df
 │   │   │   └── 10a3f1d0ff210abda7c80ac1c18545cbfedb2c
 │   │   ├── e1
@@ -280,7 +295,8 @@
 │   │   ├── data
 │   │   │   └── img
 │   │   │       ├── DataLab_Logo_2020-02-23.jpg
-│   │   │       └── icon.png
+│   │   │       ├── icon.png
+│   │   │       └── icon_dev.png
 │   │   ├── main.py
 │   │   └── src
 │   │       ├── __pycache__
@@ -325,4 +341,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-134 directories, 191 files
+141 directories, 200 files

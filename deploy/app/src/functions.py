@@ -3,6 +3,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
+from io import BytesIO
 
 class Functions():
     @st.cache_data
@@ -24,10 +25,9 @@ class Functions():
             st.write("DataLab()")
             st.pyplot(fig=plt)
         return None
-    
 
-    def img_to_df(_self, img, por_retirada) -> pd.DataFrame:
-        img_array = np.array(img, dtype="float64")/255
+    def img_to_df(_self, _img, por_retirada) -> pd.DataFrame:
+        img_array = np.array(_img, dtype="float64")/255
         img_df_orig = pd.DataFrame(
                             columns=["red"],
                             data=img_array[:,:,0].reshape(-1,1)
@@ -56,3 +56,11 @@ class Functions():
             img_df_fil.loc[img_df_fil["green"] >= threshold, "green"] = 0.0
 
         return (img_df_orig, img_df_fil)
+    
+    def to_excel_personal(_self, _df: pd.DataFrame):
+        output = BytesIO()
+        writer = pd.ExcelWriter(output, engine='xlsxwriter')
+        _df.to_excel(writer, index=False, sheet_name='Sheet1')
+        writer.close()
+        processed_data = output.getvalue()
+        return processed_data
