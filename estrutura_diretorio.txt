@@ -71,10 +71,14 @@
 │   │   │   └── 1dc10311df437a0dde07882a37852eb43f937a
 │   │   ├── 24
 │   │   │   └── a00505c49555abb3bc401df50fd1e399f8c8e9
+│   │   ├── 26
+│   │   │   └── dba5a1cd13273be3aabcf1ce577e50041a87dd
 │   │   ├── 28
 │   │   │   └── 4564dbbc39fc50080cb4bbf2c6a3c3da827720
 │   │   ├── 29
 │   │   │   └── 4442ed66285d76cdd390d3dc6fdd6eb9056115
+│   │   ├── 2b
+│   │   │   └── db8746e64badc2e8c1f23c10455e1ffcd9b3a6
 │   │   ├── 2e
 │   │   │   └── ccab19a1b3e56a5dc23891e9d8b8efec0fd5bd
 │   │   ├── 30
@@ -183,9 +187,12 @@
 │   │   │   └── 031b8d03abcae1f17485b2a63664b3140671c6
 │   │   ├── 97
 │   │   │   └── 74b4e850cd4dd0f110dfcce5ec58a31c217c60
+│   │   ├── 98
+│   │   │   └── e19d9676b78e8c5d5275a0067aa699ac6f6aed
 │   │   ├── 9b
 │   │   │   └── d5355174718928deed0579368cfeea235b4bfe
 │   │   ├── 9c
+│   │   │   ├── 259d95cf6573280e0bb25f2839f3c09194dd68
 │   │   │   └── 564c6a10d68c86fd8844ee9cbd4b09bf3ba89b
 │   │   ├── a0
 │   │   │   └── 7335f30299b7eee8c5fbd85328589481f1a2a3
@@ -212,7 +219,8 @@
 │   │   ├── b4
 │   │   │   └── 876d76081ce9dbc40966e29c0147a0e950d0fc
 │   │   ├── b8
-│   │   │   └── 80e125764cf6fbc3451e21c2a157f78ef603bd
+│   │   │   ├── 80e125764cf6fbc3451e21c2a157f78ef603bd
+│   │   │   └── eceab0906d5ad7cfd2847507eb2d965cdd2ab6
 │   │   ├── b9
 │   │   │   └── b628d064b696702c5106a9430cad51fdf50c68
 │   │   ├── bb
@@ -227,6 +235,8 @@
 │   │   │   └── 70c7e6301f264830fc761361216542166c6b8b
 │   │   ├── c9
 │   │   │   └── 94f330abb31180ddeff65e384e59feb4aebb66
+│   │   ├── cc
+│   │   │   └── 72980034d3ec14695010a61893380f62cf11b4
 │   │   ├── cf
 │   │   │   └── 7f510c3d21715ffff48760b60962b411a3c549
 │   │   ├── d0
@@ -265,6 +275,7 @@
 │   │   │   ├── 5da82c8f12602ea67dbc1c26539b0667ebe01e
 │   │   │   └── 94ed1b8db9c5c176f77194f2426cec53a0699e
 │   │   ├── f6
+│   │   │   ├── 3f8f900291f8bacca91657fead64313cb4a67d
 │   │   │   └── dadbd1b1ed2a13516ab61e5ec6b1b214714b4d
 │   │   ├── f7
 │   │   │   └── 49f1c91682891ac22cbe230fd4e5396fab4800
@@ -341,4 +352,4 @@
     ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
     └── filtro_img_2024_06_08.ipynb
 
-141 directories, 200 files
+145 directories, 207 files
