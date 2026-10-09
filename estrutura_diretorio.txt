@@ -95,70 +95,165 @@ C:.
 |           |       Experiment_CHO_745_cntl_Rabbit_v06_ch00.tif
 |           |       Experiment_CHO_745_cntl_Rabbit_v06_ch01.tif
 |           |       
-|           \---GTS
-|                   Experiment_CHO_745_GST_anti_v01.tif
-|                   Experiment_CHO_745_GST_anti_v01_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v01_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v02.tif
-|                   Experiment_CHO_745_GST_anti_v02_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v02_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v03.tif
-|                   Experiment_CHO_745_GST_anti_v03_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v03_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v04.tif
-|                   Experiment_CHO_745_GST_anti_v04_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v04_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v05.tif
-|                   Experiment_CHO_745_GST_anti_v05_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v05_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v06.tif
-|                   Experiment_CHO_745_GST_anti_v06_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v06_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v07.tif
-|                   Experiment_CHO_745_GST_anti_v07_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v07_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v08.tif
-|                   Experiment_CHO_745_GST_anti_v08_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v08_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v10.tif
-|                   Experiment_CHO_745_GST_anti_v10_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v10_ch01.tif
-|                   Experiment_CHO_745_GST_anti_v9.tif
-|                   Experiment_CHO_745_GST_anti_v9_ch00.tif
-|                   Experiment_CHO_745_GST_anti_v9_ch01.tif
-|                   Experiment_CHO_745_GST_v01.tif
-|                   Experiment_CHO_745_GST_v01_ch00.tif
-|                   Experiment_CHO_745_GST_v01_ch01.tif
-|                   Experiment_CHO_745_GST_v02.tif
-|                   Experiment_CHO_745_GST_v02_ch00.tif
-|                   Experiment_CHO_745_GST_v02_ch01.tif
-|                   Experiment_CHO_745_GST_v03.tif
-|                   Experiment_CHO_745_GST_v03_ch00.tif
-|                   Experiment_CHO_745_GST_v03_ch01.tif
-|                   Experiment_CHO_745_GST_v04.tif
-|                   Experiment_CHO_745_GST_v04_ch00.tif
-|                   Experiment_CHO_745_GST_v04_ch01.tif
-|                   Experiment_CHO_745_GST_v05.tif
-|                   Experiment_CHO_745_GST_v05_ch00.tif
-|                   Experiment_CHO_745_GST_v05_ch01.tif
-|                   Experiment_CHO_745_GST_v06.tif
-|                   Experiment_CHO_745_GST_v06_ch00.tif
-|                   Experiment_CHO_745_GST_v06_ch01.tif
-|                   Experiment_CHO_745_GST_v07.tif
-|                   Experiment_CHO_745_GST_v07_ch00.tif
-|                   Experiment_CHO_745_GST_v07_ch01.tif
-|                   Experiment_CHO_745_GST_v08.tif
-|                   Experiment_CHO_745_GST_v08_ch00.tif
-|                   Experiment_CHO_745_GST_v08_ch01.tif
-|                   Experiment_CHO_745_GST_v09.tif
-|                   Experiment_CHO_745_GST_v09_ch00.tif
-|                   Experiment_CHO_745_GST_v09_ch01.tif
-|                   Experiment_CHO_745_GST_v10.tif
-|                   Experiment_CHO_745_GST_v10_ch00.tif
-|                   Experiment_CHO_745_GST_v10_ch01.tif
-|                   Experiment_CHO_745_GST_v11.tif
-|                   Experiment_CHO_745_GST_v11_ch00.tif
-|                   Experiment_CHO_745_GST_v11_ch01.tif
+|           +---GTS
+|           |       Experiment_CHO_745_GST_anti_v01.tif
+|           |       Experiment_CHO_745_GST_anti_v01_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v01_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v02.tif
+|           |       Experiment_CHO_745_GST_anti_v02_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v02_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v03.tif
+|           |       Experiment_CHO_745_GST_anti_v03_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v03_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v04.tif
+|           |       Experiment_CHO_745_GST_anti_v04_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v04_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v05.tif
+|           |       Experiment_CHO_745_GST_anti_v05_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v05_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v06.tif
+|           |       Experiment_CHO_745_GST_anti_v06_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v06_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v07.tif
+|           |       Experiment_CHO_745_GST_anti_v07_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v07_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v08.tif
+|           |       Experiment_CHO_745_GST_anti_v08_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v08_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v10.tif
+|           |       Experiment_CHO_745_GST_anti_v10_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v10_ch01.tif
+|           |       Experiment_CHO_745_GST_anti_v9.tif
+|           |       Experiment_CHO_745_GST_anti_v9_ch00.tif
+|           |       Experiment_CHO_745_GST_anti_v9_ch01.tif
+|           |       Experiment_CHO_745_GST_v01.tif
+|           |       Experiment_CHO_745_GST_v01_ch00.tif
+|           |       Experiment_CHO_745_GST_v01_ch01.tif
+|           |       Experiment_CHO_745_GST_v02.tif
+|           |       Experiment_CHO_745_GST_v02_ch00.tif
+|           |       Experiment_CHO_745_GST_v02_ch01.tif
+|           |       Experiment_CHO_745_GST_v03.tif
+|           |       Experiment_CHO_745_GST_v03_ch00.tif
+|           |       Experiment_CHO_745_GST_v03_ch01.tif
+|           |       Experiment_CHO_745_GST_v04.tif
+|           |       Experiment_CHO_745_GST_v04_ch00.tif
+|           |       Experiment_CHO_745_GST_v04_ch01.tif
+|           |       Experiment_CHO_745_GST_v05.tif
+|           |       Experiment_CHO_745_GST_v05_ch00.tif
+|           |       Experiment_CHO_745_GST_v05_ch01.tif
+|           |       Experiment_CHO_745_GST_v06.tif
+|           |       Experiment_CHO_745_GST_v06_ch00.tif
+|           |       Experiment_CHO_745_GST_v06_ch01.tif
+|           |       Experiment_CHO_745_GST_v07.tif
+|           |       Experiment_CHO_745_GST_v07_ch00.tif
+|           |       Experiment_CHO_745_GST_v07_ch01.tif
+|           |       Experiment_CHO_745_GST_v08.tif
+|           |       Experiment_CHO_745_GST_v08_ch00.tif
+|           |       Experiment_CHO_745_GST_v08_ch01.tif
+|           |       Experiment_CHO_745_GST_v09.tif
+|           |       Experiment_CHO_745_GST_v09_ch00.tif
+|           |       Experiment_CHO_745_GST_v09_ch01.tif
+|           |       Experiment_CHO_745_GST_v10.tif
+|           |       Experiment_CHO_745_GST_v10_ch00.tif
+|           |       Experiment_CHO_745_GST_v10_ch01.tif
+|           |       Experiment_CHO_745_GST_v11.tif
+|           |       Experiment_CHO_745_GST_v11_ch00.tif
+|           |       Experiment_CHO_745_GST_v11_ch01.tif
+|           |       
+|           \---VIR
+|                   Experiment_CHO_745_096_anti_v01.tif
+|                   Experiment_CHO_745_096_anti_v01_ch00.tif
+|                   Experiment_CHO_745_096_anti_v01_ch01.tif
+|                   Experiment_CHO_745_096_anti_v02.tif
+|                   Experiment_CHO_745_096_anti_v02_ch00.tif
+|                   Experiment_CHO_745_096_anti_v02_ch01.tif
+|                   Experiment_CHO_745_096_anti_v03.tif
+|                   Experiment_CHO_745_096_anti_v03_ch00.tif
+|                   Experiment_CHO_745_096_anti_v03_ch01.tif
+|                   Experiment_CHO_745_096_anti_v04.tif
+|                   Experiment_CHO_745_096_anti_v04_ch00.tif
+|                   Experiment_CHO_745_096_anti_v04_ch01.tif
+|                   Experiment_CHO_745_096_anti_v05.tif
+|                   Experiment_CHO_745_096_anti_v05_ch00.tif
+|                   Experiment_CHO_745_096_anti_v05_ch01.tif
+|                   Experiment_CHO_745_096_v01.tif
+|                   Experiment_CHO_745_096_v01_ch00.tif
+|                   Experiment_CHO_745_096_v01_ch01.tif
+|                   Experiment_CHO_745_096_v02.tif
+|                   Experiment_CHO_745_096_v02_ch00.tif
+|                   Experiment_CHO_745_096_v02_ch01.tif
+|                   Experiment_CHO_745_096_v03.tif
+|                   Experiment_CHO_745_096_v03_ch00.tif
+|                   Experiment_CHO_745_096_v03_ch01.tif
+|                   Experiment_CHO_745_096_v04.tif
+|                   Experiment_CHO_745_096_v04_ch00.tif
+|                   Experiment_CHO_745_096_v04_ch01.tif
+|                   Experiment_CHO_745_096_v05.tif
+|                   Experiment_CHO_745_096_v05_ch00.tif
+|                   Experiment_CHO_745_096_v05_ch01.tif
+|                   Experiment_CHO_745_105_anti_v01.tif
+|                   Experiment_CHO_745_105_anti_v01_ch00.tif
+|                   Experiment_CHO_745_105_anti_v01_ch01.tif
+|                   Experiment_CHO_745_105_anti_v02.tif
+|                   Experiment_CHO_745_105_anti_v02_ch00.tif
+|                   Experiment_CHO_745_105_anti_v02_ch01.tif
+|                   Experiment_CHO_745_105_anti_v03.tif
+|                   Experiment_CHO_745_105_anti_v03_ch00.tif
+|                   Experiment_CHO_745_105_anti_v03_ch01.tif
+|                   Experiment_CHO_745_105_anti_v04.tif
+|                   Experiment_CHO_745_105_anti_v04_ch00.tif
+|                   Experiment_CHO_745_105_anti_v04_ch01.tif
+|                   Experiment_CHO_745_105_anti_v05.tif
+|                   Experiment_CHO_745_105_anti_v05_ch00.tif
+|                   Experiment_CHO_745_105_anti_v05_ch01.tif
+|                   Experiment_CHO_745_105_anti_v06.tif
+|                   Experiment_CHO_745_105_anti_v06_ch00.tif
+|                   Experiment_CHO_745_105_anti_v06_ch01.tif
+|                   Experiment_CHO_745_105_anti_v07.tif
+|                   Experiment_CHO_745_105_anti_v07_ch00.tif
+|                   Experiment_CHO_745_105_anti_v07_ch01.tif
+|                   Experiment_CHO_745_105_anti_v08.tif
+|                   Experiment_CHO_745_105_anti_v08_ch00.tif
+|                   Experiment_CHO_745_105_anti_v08_ch01.tif
+|                   Experiment_CHO_745_105_anti_v09.tif
+|                   Experiment_CHO_745_105_anti_v09_ch00.tif
+|                   Experiment_CHO_745_105_anti_v09_ch01.tif
+|                   Experiment_CHO_745_105_anti_v10.tif
+|                   Experiment_CHO_745_105_anti_v10_ch00.tif
+|                   Experiment_CHO_745_105_anti_v10_ch01.tif
+|                   Experiment_CHO_745_105_v01.tif
+|                   Experiment_CHO_745_105_v01_ch00.tif
+|                   Experiment_CHO_745_105_v01_ch01.tif
+|                   Experiment_CHO_745_105_v02.tif
+|                   Experiment_CHO_745_105_v02_ch00.tif
+|                   Experiment_CHO_745_105_v02_ch01.tif
+|                   Experiment_CHO_745_105_v03.tif
+|                   Experiment_CHO_745_105_v03_ch00.tif
+|                   Experiment_CHO_745_105_v03_ch01.tif
+|                   Experiment_CHO_745_105_v04.tif
+|                   Experiment_CHO_745_105_v04_ch00.tif
+|                   Experiment_CHO_745_105_v04_ch01.tif
+|                   Experiment_CHO_745_105_v05.tif
+|                   Experiment_CHO_745_105_v05_ch00.tif
+|                   Experiment_CHO_745_105_v05_ch01.tif
+|                   Experiment_CHO_745_105_v06.tif
+|                   Experiment_CHO_745_105_v06_ch00.tif
+|                   Experiment_CHO_745_105_v06_ch01.tif
+|                   Experiment_CHO_745_105_v07.tif
+|                   Experiment_CHO_745_105_v07_ch00.tif
+|                   Experiment_CHO_745_105_v07_ch01.tif
+|                   Experiment_CHO_745_105_v08.tif
+|                   Experiment_CHO_745_105_v08_ch00.tif
+|                   Experiment_CHO_745_105_v08_ch01.tif
+|                   Experiment_CHO_745_105_v09.tif
+|                   Experiment_CHO_745_105_v09_ch00.tif
+|                   Experiment_CHO_745_105_v09_ch01.tif
+|                   Experiment_CHO_745_105_v10.tif
+|                   Experiment_CHO_745_105_v10_ch00.tif
+|                   Experiment_CHO_745_105_v10_ch01.tif
+|                   Experiment_CHO_745_105_v11.tif
+|                   Experiment_CHO_745_105_v11_ch00.tif
+|                   Experiment_CHO_745_105_v11_ch01.tif
 |                   
 +---deploy
 |   |   run_docker.sh
