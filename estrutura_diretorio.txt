@@ -1,355 +1,80 @@
-.
-├── .git
-│   ├── COMMIT_EDITMSG
-│   ├── FETCH_HEAD
-│   ├── HEAD
-│   ├── ORIG_HEAD
-│   ├── branches
-│   ├── config
-│   ├── description
-│   ├── hooks
-│   │   ├── applypatch-msg.sample
-│   │   ├── commit-msg.sample
-│   │   ├── fsmonitor-watchman.sample
-│   │   ├── post-update.sample
-│   │   ├── pre-applypatch.sample
-│   │   ├── pre-commit.sample
-│   │   ├── pre-merge-commit.sample
-│   │   ├── pre-push.sample
-│   │   ├── pre-rebase.sample
-│   │   ├── pre-receive.sample
-│   │   ├── prepare-commit-msg.sample
-│   │   ├── push-to-checkout.sample
-│   │   └── update.sample
-│   ├── index
-│   ├── info
-│   │   └── exclude
-│   ├── logs
-│   │   ├── HEAD
-│   │   └── refs
-│   │       ├── heads
-│   │       │   └── main
-│   │       └── remotes
-│   │           └── origin
-│   │               ├── HEAD
-│   │               └── main
-│   ├── objects
-│   │   ├── 00
-│   │   │   ├── 6e4036981de7a831adf29fd539e8c9ebd7abe0
-│   │   │   └── 7c63c5bc3337838497cb6d08b38f4966260c48
-│   │   ├── 01
-│   │   │   └── 35b1c29054a9a7eb37e3d8a0f6ab4d00ab1022
-│   │   ├── 06
-│   │   │   └── ed1c8902a087edf07dd543a3de50675e785b5a
-│   │   ├── 0a
-│   │   │   ├── 33b0783f7d6e22ecb151200ddb8f24606f47e9
-│   │   │   └── 583f3bb6e664a4398770ed9a233a7c24ad3487
-│   │   ├── 0e
-│   │   │   └── b374357fc1883bdcc596b593b238da56fa9cac
-│   │   ├── 0f
-│   │   │   └── 52014c4f024e6b6a04efc07a44a31a098cf137
-│   │   ├── 11
-│   │   │   └── d72bd0609c6d3d1166443e6ea8f910c3b9ecfd
-│   │   ├── 12
-│   │   │   └── f056084c089b2b6136da6da9394d8b93cc1a57
-│   │   ├── 14
-│   │   │   └── aef17181879c701bfa9b6128853d528d3ea917
-│   │   ├── 15
-│   │   │   └── d19e44e853443a2f81abd42e92961f74350050
-│   │   ├── 18
-│   │   │   └── 17f9af7b5b5b76593017c2771405531c59ce43
-│   │   ├── 1d
-│   │   │   └── 15f8320600f2e761399dcc4a72551b8e13ab5f
-│   │   ├── 1f
-│   │   │   └── 86a6780d71e9e40002118a26c96acd1e49f2bc
-│   │   ├── 20
-│   │   │   └── d3229c44fb945f9648cd20a6eca91859761827
-│   │   ├── 21
-│   │   │   ├── 6cdf00c3e06b6eb08f3a55ab68e0faff49f6b3
-│   │   │   └── 770e30527150e7db8fd718d9c6feba7e1a00d4
-│   │   ├── 22
-│   │   │   └── 1dc10311df437a0dde07882a37852eb43f937a
-│   │   ├── 24
-│   │   │   └── a00505c49555abb3bc401df50fd1e399f8c8e9
-│   │   ├── 26
-│   │   │   └── dba5a1cd13273be3aabcf1ce577e50041a87dd
-│   │   ├── 28
-│   │   │   └── 4564dbbc39fc50080cb4bbf2c6a3c3da827720
-│   │   ├── 29
-│   │   │   └── 4442ed66285d76cdd390d3dc6fdd6eb9056115
-│   │   ├── 2b
-│   │   │   └── db8746e64badc2e8c1f23c10455e1ffcd9b3a6
-│   │   ├── 2e
-│   │   │   └── ccab19a1b3e56a5dc23891e9d8b8efec0fd5bd
-│   │   ├── 30
-│   │   │   └── deb48719383e354f817039b6603ff187086c57
-│   │   ├── 31
-│   │   │   ├── 3d2824e68b5dea63aba9c8738de863e310034e
-│   │   │   ├── 5e68f253dd2517bb1af5bf705749841b10394e
-│   │   │   └── d4e3105d1068bb26d339d98cee8f2e4e0908c2
-│   │   ├── 33
-│   │   │   └── 6505a7576b1a01830fa5dcbce0fe343de4e70e
-│   │   ├── 35
-│   │   │   └── 913ec2a10ec8593a99e29b76b9c706b945146a
-│   │   ├── 38
-│   │   │   └── 74d7af01cc5aff15de1f42216dd7e921e51aa6
-│   │   ├── 3c
-│   │   │   └── 64077fad942558c5b0fb38e30adda728653536
-│   │   ├── 3d
-│   │   │   └── a87911b12bdb7c95d710c13c997051a99b22ad
-│   │   ├── 3e
-│   │   │   ├── da398ae907c9ba64b821888455bf7c30d23597
-│   │   │   └── e75af66ce05059d661fbddff687f7964498b75
-│   │   ├── 42
-│   │   │   └── 83ff6fee02fa49c3242afc8ddc01201051e659
-│   │   ├── 43
-│   │   │   └── ac1c0bf2e2a77894add88692d9991dba3a43de
-│   │   ├── 46
-│   │   │   └── 57bd4b9b4ddf591bdb46ea4bca1fff21129371
-│   │   ├── 4a
-│   │   │   └── 1e43aa5f5c98c3a6c52f770fae83248642d792
-│   │   ├── 4e
-│   │   │   └── 0217ea3ab9453c4bbc82e5b33667eb9982b88f
-│   │   ├── 50
-│   │   │   └── 33c39c0eb3bd977829ebae3abd75a8c86cbd04
-│   │   ├── 51
-│   │   │   └── 336554e1a76fa8f44b072d67dbd425dd3331d5
-│   │   ├── 55
-│   │   │   └── 63a246b1d375039015806f21fc6747a74f81bf
-│   │   ├── 58
-│   │   │   └── 19a0bad7604a5889e4d78a8998bb9c221616a1
-│   │   ├── 5b
-│   │   │   └── 24dc4f3327f09e2f178d07a313701dee0ffbdb
-│   │   ├── 5c
-│   │   │   ├── ccc419a2598e064850b48e0bd7a450f93032cb
-│   │   │   └── eb22e4a17573495a3bfbc433d50e23efa0a7ea
-│   │   ├── 5d
-│   │   │   └── f7a099ab0870dd02812d4311a32f4834f78b9c
-│   │   ├── 61
-│   │   │   └── 2ca63602add4df6880c36bcd4249fc03cf9034
-│   │   ├── 63
-│   │   │   └── dc1dacebba39a04538ab01d6f0cbc819d5227a
-│   │   ├── 66
-│   │   │   └── e7dda4e22280ffd393b2357fa44f6073c75678
-│   │   ├── 67
-│   │   │   └── 934845ac37b5a06b493532ba4f13537c4bc2ae
-│   │   ├── 69
-│   │   │   └── d5e71381db2925122fd7f30749153dfcf9ec05
-│   │   ├── 6a
-│   │   │   └── 2f38fcecf180ab0ac3fe4fe7b7daaa2598a4b4
-│   │   ├── 6b
-│   │   │   └── 90246652efff58189868d29976a68d22135520
-│   │   ├── 6e
-│   │   │   └── d59082e20576a7d1cc154e6c6fd446090d5cd2
-│   │   ├── 70
-│   │   │   └── cb9c6f0d68b97755bac11b3d8e6456799ff6fe
-│   │   ├── 72
-│   │   │   ├── 07110a1e7e391ba37d65152c262dd379b80967
-│   │   │   └── 6d019dd758e006c8cf673d648b5a5462e6bba2
-│   │   ├── 73
-│   │   │   ├── 19f5b001834d20bdd4b641da362d496d43fe12
-│   │   │   └── 6a6338d4a52abcf05f01786e129345df272d44
-│   │   ├── 74
-│   │   │   ├── 5acea6529287c3340a15890cfebb8d53a2379a
-│   │   │   └── cfcd3f9a409c6ec1ca003f21f18b0bfeb3c8c4
-│   │   ├── 76
-│   │   │   └── 14a0b5d3c414b3791977dd131056983c1aa5b2
-│   │   ├── 78
-│   │   │   ├── 01b3ba187454a35e2f21cc9935791768a13af7
-│   │   │   └── 68d0ca32bdb51db6ff0543f148ce43d9a0c7fc
-│   │   ├── 7a
-│   │   │   └── ed85f41fc6c5ad4444edb9c6258dffa3b1f1af
-│   │   ├── 7d
-│   │   │   └── 68bd35c217f0228de962c452fbabb6dfa2a243
-│   │   ├── 7f
-│   │   │   ├── 43a28b633e3b68660be62214eee7c1e1f9ec65
-│   │   │   ├── b2ac3804a764c2bbd232a1fe449f081bff0fdd
-│   │   │   └── f9717fe2b6c8d73be094cf2fe9a7b10e60e455
-│   │   ├── 80
-│   │   │   └── 4dc8372269da81367afe02e6e94d96b3018f66
-│   │   ├── 87
-│   │   │   └── 8a9ee13c18a6591cc9f90671ae557a141cd68d
-│   │   ├── 89
-│   │   │   └── bade803e5225ae21e5baf329edd866f7110dc7
-│   │   ├── 8a
-│   │   │   └── 25320e66bb91da398daf7d2a4bf17185d9cab7
-│   │   ├── 8d
-│   │   │   └── ab36d5f4bf232bda719315c90c0d94d0784ddd
-│   │   ├── 8f
-│   │   │   ├── 21bfb57b66c0ffe9e3cc37feefe288274ac014
-│   │   │   ├── 2bf35bf9c9dfc0a593b2ab0787749fa2093d6e
-│   │   │   └── b935f3ee8f627face310ad2b8c386dbe7d45ad
-│   │   ├── 92
-│   │   │   └── a70d6d0c31ce0bb5f5f1362fdf8e08520346e5
-│   │   ├── 94
-│   │   │   └── 9e60e492166575eb583245df981ea1d7fa4af9
-│   │   ├── 95
-│   │   │   └── 031b8d03abcae1f17485b2a63664b3140671c6
-│   │   ├── 97
-│   │   │   └── 74b4e850cd4dd0f110dfcce5ec58a31c217c60
-│   │   ├── 98
-│   │   │   └── e19d9676b78e8c5d5275a0067aa699ac6f6aed
-│   │   ├── 9b
-│   │   │   └── d5355174718928deed0579368cfeea235b4bfe
-│   │   ├── 9c
-│   │   │   ├── 259d95cf6573280e0bb25f2839f3c09194dd68
-│   │   │   └── 564c6a10d68c86fd8844ee9cbd4b09bf3ba89b
-│   │   ├── a0
-│   │   │   └── 7335f30299b7eee8c5fbd85328589481f1a2a3
-│   │   ├── a3
-│   │   │   └── dfcb26735fe9f72c4b2d24bf0ccea78aee019d
-│   │   ├── a4
-│   │   │   └── cbe8d279ab947d588e67a60204ee7a34ac3a27
-│   │   ├── a5
-│   │   │   ├── 2778a2cc312f1eb6ae15d94a9b9d7a170b4984
-│   │   │   └── 2fb72f59dc023f55f4bac55bbd3a03475668cd
-│   │   ├── a7
-│   │   │   └── 51d324f9a3c8e84dcae0fa9912e37db2bcbd42
-│   │   ├── ac
-│   │   │   ├── 263e9b35c9e10f29d62865a7e00e3f4a4729d0
-│   │   │   ├── baee0f9a78e13839bd2b0beac3e24ceb3ecc19
-│   │   │   └── eda52c1676c67d0a13e049c7e02251f64992e7
-│   │   ├── ae
-│   │   │   └── 18cded145d8e2eccc315c8545c1ed7599a0cc0
-│   │   ├── b0
-│   │   │   └── d65da133387b58257b19d670c40549646c1125
-│   │   ├── b3
-│   │   │   ├── 982b15ca2b14c47d1af8f76a9c1c3bf742517d
-│   │   │   └── 9db362c1a28fc8515a4670795411ca1526ba61
-│   │   ├── b4
-│   │   │   └── 876d76081ce9dbc40966e29c0147a0e950d0fc
-│   │   ├── b8
-│   │   │   ├── 80e125764cf6fbc3451e21c2a157f78ef603bd
-│   │   │   └── eceab0906d5ad7cfd2847507eb2d965cdd2ab6
-│   │   ├── b9
-│   │   │   └── b628d064b696702c5106a9430cad51fdf50c68
-│   │   ├── bb
-│   │   │   └── 83f26d203b205256212babdeeb42268842cdf9
-│   │   ├── bf
-│   │   │   └── 2d4cf9df6e983061924a6b4e48280fb40a2229
-│   │   ├── c0
-│   │   │   └── 9c65919419bdbb288b29abe1ccf0c0bf3455f5
-│   │   ├── c1
-│   │   │   └── f6b0a817a2e21ade03c1b071f5c9ccb669d77c
-│   │   ├── c8
-│   │   │   └── 70c7e6301f264830fc761361216542166c6b8b
-│   │   ├── c9
-│   │   │   └── 94f330abb31180ddeff65e384e59feb4aebb66
-│   │   ├── cc
-│   │   │   └── 72980034d3ec14695010a61893380f62cf11b4
-│   │   ├── cf
-│   │   │   └── 7f510c3d21715ffff48760b60962b411a3c549
-│   │   ├── d0
-│   │   │   └── 9cf9dbd53ef1420e70591f14c3fab0f77a950d
-│   │   ├── d8
-│   │   │   └── ea0fdc066cc5042aea95a801de32c3b1ead81d
-│   │   ├── d9
-│   │   │   └── fca94b2a5357d34100c9c154e8ec5310d777f1
-│   │   ├── dc
-│   │   │   └── e04569dc4b98192d921c3696598e2cdb77993e
-│   │   ├── dd
-│   │   │   └── 48ecd7a30000806dff66d2bbc27f3f4e7309be
-│   │   ├── de
-│   │   │   └── e2b34c317ebb5ab0992a36cdf560a160e5cf89
-│   │   ├── df
-│   │   │   └── 10a3f1d0ff210abda7c80ac1c18545cbfedb2c
-│   │   ├── e1
-│   │   │   └── 89b1de178348b1613a3bd94022efc7996d60df
-│   │   ├── e2
-│   │   │   └── 77551a94a13535c06a93a1fdea092682edf051
-│   │   ├── e6
-│   │   │   └── a61fe44fa781ee163c120cb67515cfad7103f2
-│   │   ├── e8
-│   │   │   └── 01064747e4d9af56a6a904698911210bab381e
-│   │   ├── ed
-│   │   │   └── 2c9f67eef165135565501391eb47a3cab5258d
-│   │   ├── f0
-│   │   │   └── 35766c0d961d831d4ec6b2d79497666a8be329
-│   │   ├── f1
-│   │   │   └── 6a81ae4605e4aae2c3c081cd233104515eaee8
-│   │   ├── f3
-│   │   │   └── fa258fb6fd499dc6e591ce679c2c5cb4b1e032
-│   │   ├── f4
-│   │   │   └── 7ee1b279efc5918bc8a2cd848f9460aa40bbf5
-│   │   ├── f5
-│   │   │   ├── 5da82c8f12602ea67dbc1c26539b0667ebe01e
-│   │   │   └── 94ed1b8db9c5c176f77194f2426cec53a0699e
-│   │   ├── f6
-│   │   │   ├── 3f8f900291f8bacca91657fead64313cb4a67d
-│   │   │   └── dadbd1b1ed2a13516ab61e5ec6b1b214714b4d
-│   │   ├── f7
-│   │   │   └── 49f1c91682891ac22cbe230fd4e5396fab4800
-│   │   ├── f9
-│   │   │   └── d23a70e3144e90519255a8e4211c7ad36732cd
-│   │   ├── fb
-│   │   │   └── b6b2b6834c329059b454cd341d280e59055cd1
-│   │   ├── info
-│   │   └── pack
-│   │       ├── pack-d8a2ef5aa19f526db0a8172b33a90e1baf157cfa.idx
-│   │       └── pack-d8a2ef5aa19f526db0a8172b33a90e1baf157cfa.pack
-│   ├── packed-refs
-│   └── refs
-│       ├── heads
-│       │   └── main
-│       ├── remotes
-│       │   └── origin
-│       │       ├── HEAD
-│       │       └── main
-│       └── tags
-├── .gitignore
-├── LICENSE
-├── README.md
-├── VERSION
-├── commit_git.sh
-├── deploy
-│   ├── app
-│   │   ├── data
-│   │   │   └── img
-│   │   │       ├── DataLab_Logo_2020-02-23.jpg
-│   │   │       ├── icon.png
-│   │   │       └── icon_dev.png
-│   │   ├── main.py
-│   │   └── src
-│   │       ├── __pycache__
-│   │       │   ├── functions.cpython-37.pyc
-│   │       │   └── pages.cpython-37.pyc
-│   │       ├── functions.py
-│   │       └── pages.py
-│   ├── docker
-│   │   ├── Dockerfile
-│   │   ├── docker-compose-app.yml
-│   │   └── requirements.txt
-│   ├── run_docker.sh
-│   └── testes_python.sh
-├── dev
-│   ├── app
-│   │   ├── data
-│   │   │   └── img
-│   │   │       ├── DataLab_Logo_2020-02-23.jpg
-│   │   │       ├── icon.png
-│   │   │       └── icon_dev.png
-│   │   ├── main.py
-│   │   └── src
-│   │       ├── __pycache__
-│   │       │   ├── functions.cpython-37.pyc
-│   │       │   └── pages.cpython-37.pyc
-│   │       ├── functions.py
-│   │       └── pages.py
-│   ├── docker
-│   │   ├── Dockerfile
-│   │   ├── docker-compose-app.yml
-│   │   └── requirements.txt
-│   ├── run_docker.sh
-│   └── testes_python.sh
-├── estrutura_diretorio.txt
-└── notebooks
-    ├── CHO_GTS_745_05_06_24.ipynb
-    ├── CHO_VIR_745_05_06_24.ipynb
-    ├── CHO_VIR_745_CNTRL_05_06_24.ipynb
-    ├── ICAM_CNTRL_05_06_24.ipynb
-    ├── ICAM_GTS_05_06_24.ipynb
-    ├── ICAM_VIR_05_06_24.ipynb
-    ├── Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
-    └── filtro_img_2024_06_08.ipynb
-
-145 directories, 207 files
+Listagem de caminhos de pasta para o volume OS
+O n�mero de s�rie do volume � EEF5-2F70
+C:.
+|   .gitignore
+|   1_Retirada_excesso_pixel.ipynb
+|   commit_git.sh
+|   estrutura_diretorio.txt
+|   LICENSE
+|   README.md
+|   VERSION
+|   
++---data
+|   \---imagem_conjunto
+|       \---CHO-745
+|           \---Controle
+|                   Experiment_CHO_745_cntl_CHO_v01.tif
+|                   Experiment_CHO_745_cntl_ICAM_v01.tif
+|                   Experiment_CHO_745_cntl_ICAM_v02.tif
+|                   Experiment_CHO_745_cntl_ICAM_v10.tif
+|                   Experiment_CHO_745_cntl_Mouse_v02.tif
+|                   Experiment_CHO_745_cntl_Mouse_v03.tif
+|                   Experiment_CHO_745_cntl_Mouse_v06.tif
+|                   Experiment_CHO_745_cntl_Rabbit_v01.tif
+|                   Experiment_CHO_745_cntl_Rabbit_v03.tif
+|                   Experiment_CHO_745_cntl_Rabbit_v05.tif
+|                   
++---deploy
+|   |   run_docker.sh
+|   |   testes_python.sh
+|   |   
+|   +---app
+|   |   |   main.py
+|   |   |   
+|   |   +---data
+|   |   |   \---img
+|   |   |           DataLab_Logo_2020-02-23.jpg
+|   |   |           icon.png
+|   |   |           icon_dev.png
+|   |   |           
+|   |   \---src
+|   |           functions.py
+|   |           pages.py
+|   |           
+|   \---docker
+|           docker-compose-app.yml
+|           Dockerfile
+|           requirements.txt
+|           
++---dev
+|   |   run_docker.sh
+|   |   testes_python.sh
+|   |   
+|   +---app
+|   |   |   main.py
+|   |   |   
+|   |   +---data
+|   |   |   \---img
+|   |   |           DataLab_Logo_2020-02-23.jpg
+|   |   |           icon.png
+|   |   |           icon_dev.png
+|   |   |           
+|   |   \---src
+|   |           functions.py
+|   |           pages.py
+|   |           
+|   \---docker
+|           docker-compose-app.yml
+|           Dockerfile
+|           requirements.txt
+|           
+\---notebooks
+        CHO_GTS_745_05_06_24.ipynb
+        CHO_VIR_745_05_06_24.ipynb
+        CHO_VIR_745_CNTRL_05_06_24.ipynb
+        filtro_img_2024_06_08.ipynb
+        ICAM_CNTRL_05_06_24.ipynb
+        ICAM_GTS_05_06_24.ipynb
+        ICAM_VIR_05_06_24.ipynb
+        Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
+        
