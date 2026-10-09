@@ -2,7 +2,6 @@ Listagem de caminhos de pasta para o volume OS
 O número de série do volume é EEF5-2F70
 C:.
 |   .gitignore
-|   1_Retirada_excesso_pixel.ipynb
 |   commit_git.sh
 |   estrutura_diretorio.txt
 |   LICENSE
@@ -631,7 +630,8 @@ C:.
 |           requirements.txt
 |           
 \---notebooks
-        1_Retirada_excesso_pixel.ipynb
+        1_Retirada_excesso_pixel_2026-10-09.ipynb
+        1_Retirada_excesso_pixel_old.ipynb
         CHO_GTS_745_05_06_24.ipynb
         CHO_VIR_745_05_06_24.ipynb
         CHO_VIR_745_CNTRL_05_06_24.ipynb
