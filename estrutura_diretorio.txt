@@ -14,14 +14,24 @@ C:.
 |       \---CHO-745
 |           \---Controle
 |                   Experiment_CHO_745_cntl_CHO_v01.tif
+|                   Experiment_CHO_745_cntl_CHO_v02.tif
+|                   Experiment_CHO_745_cntl_CHO_v03.tif
+|                   Experiment_CHO_745_cntl_CHO_v04.tif
 |                   Experiment_CHO_745_cntl_ICAM_v01.tif
 |                   Experiment_CHO_745_cntl_ICAM_v02.tif
+|                   Experiment_CHO_745_cntl_ICAM_v03.tif
+|                   Experiment_CHO_745_cntl_ICAM_v07.tif
+|                   Experiment_CHO_745_cntl_ICAM_v09.tif
 |                   Experiment_CHO_745_cntl_ICAM_v10.tif
 |                   Experiment_CHO_745_cntl_Mouse_v02.tif
 |                   Experiment_CHO_745_cntl_Mouse_v03.tif
+|                   Experiment_CHO_745_cntl_Mouse_v04.tif
+|                   Experiment_CHO_745_cntl_Mouse_v05.tif
 |                   Experiment_CHO_745_cntl_Mouse_v06.tif
 |                   Experiment_CHO_745_cntl_Rabbit_v01.tif
+|                   Experiment_CHO_745_cntl_Rabbit_v02.tif
 |                   Experiment_CHO_745_cntl_Rabbit_v03.tif
+|                   Experiment_CHO_745_cntl_Rabbit_v04.tif
 |                   Experiment_CHO_745_cntl_Rabbit_v05.tif
 |                   
 +---deploy
@@ -69,6 +79,7 @@ C:.
 |           requirements.txt
 |           
 \---notebooks
+        1_Retirada_excesso_pixel.ipynb
         CHO_GTS_745_05_06_24.ipynb
         CHO_VIR_745_05_06_24.ipynb
         CHO_VIR_745_CNTRL_05_06_24.ipynb
