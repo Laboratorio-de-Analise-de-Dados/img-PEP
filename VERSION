@@ -1,11 +1,35 @@
-# Iniciando o deploy
+# Iniciando o ambiente em Python com Docker
 0.0.0
 
-# Inserindo imagens via upload
+# Inserindo arquivos de configuração do JupyterLab no python.Dockerfile
 0.1.0
 
-# Filtro de canal verde inserido
+# Inserindo módulos de testagem de estílo Flake8 e MyPy no contaínes
 0.2.0
+
+# Inserindo IaC (Infra as a Code) via Terraform
+0.3.0
+
+# Inserindo uma função própria de plotagem de gráfico
+0.4.0
+
+# Modificando a instalação Docker
+0.5.0
+
+# Atualizando as bibliotecas do Python
+0.6.0
+
+# Novo notebook de gráficos
+0.7.0
+
+# Corrigindo instalação da imagem Docker
+0.7.1
+
+# Modificando para versão Python 3.10.12
+1.8.1
+
+# Versão da disciplina Python ML
+2.9.1
 
 --
 # Versionamento semântico

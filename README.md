@@ -1,3 +1,131 @@
-# Deep Learning Architecture for Cytoadhesion Analysis in Malaria: A Robust Framework to Overcome the Limitations of Conventional Fluorescence Microscopy
+# data.lab() — Ambiente de Desenvolvimento Docker
 
-Microscopy images are subject to noise and artifact acquisition, requiring corrections to ensure the accuracy and quality of the data obtained. This analysis is usually performed via software that requires greater user interaction with the machine in a manual and laborious manner. Machine learning (ML) techniques aim to enable computer systems to learn automatically from datasets by applying algorithms capable of identifying patterns. For image data processing, it is possible to use convolutional neural networks (CNNs), which are learning models capable of automatically and adaptively learning spatial hierarchies of characteristics and identifying patterns from simpler to more complex representations in faces, cars, animals, or pathologies. Malaria is one of the main human parasitic diseases, and in Brazil, infection caused by Plasmodium vivax is predominant (83%). Adhesive phenomena, including adhesion to endothelial receptors, have been reported in vivax malaria, but their relationship with disease severity is unknown, and little is known about the ligands and receptors involved in this process. There is evidence that this interaction may be mediated by various surface antigens present on the surface of infected red blood cells (iRBCs), such as VIR proteins. The objective of this study was to use ML algorithms to quantify cells that interact with Plasmodium vivax adhesive proteins. Compared with the control protein GST, the VIR protein had different effects on CHO-ICAM1 and CHO-745 cells. However, nonspecific binding was observed at the time of quantification. The use of a procedural algorithm allowed the removal of artifacts with high fluorescence intensity resulting from protein precipitates at the bottom of the plate wells. The discrepancy in pixel intensity was corrected with a frequency adjustment of 0.1%. A strong correlation between the observed and predicted values was identified (R: 0.9017 p value <0.01), ensuring the quality of the algorithm's ability to quantify fluorescence images. The model tended to produce stable predictions, with moderate variation in a cross-validation technique (mean MSE: 735.27; D: 224.28). Additionally, it is possible to extrapolate the model to quantify cytoadhesion potential in other lineages. Nevertheless, the structural definition and cell confluence are associated with limitations, such as a loss of robustness and reduced accuracy in images with cell overlap. The predictive power of image-based deep learning models is directly associated with image quality and biological variability. The CNN technique has proven useful in quantifying protein‒cell interactions from fluorescence images of different cell lineages, provided that the images have low cell confluence.
+[![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Lab%20%2F%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](LICENSE)
+
+Ambiente Docker padronizado do **data.lab() (Laboratório de Análise de Dados)** configurado para o desenvolvimento acelerado de projetos de Ciência de Dados, Análise de Dados e Machine Learning. 
+
+O repositório disponibiliza contêineres prontos com **Python**, **Jupyter Lab** e as principais bibliotecas científicas pré-instaladas, garantindo reprodutibilidade e eliminando o problema de *"funciona na minha máquina"*.
+
+---
+
+## 📌 Índice
+- [Pré-requisitos](#-pré-requisitos)
+- [Estrutura do Repositório](#-estrutura-do-repositório)
+- [Instalação e Configuração](#-instalação-e-configuração)
+- [Como Usar](#-como-usar)
+- [Dependências Pré-instaladas](#-dependências-pré-instaladas)
+- [Como Contribuir](#-como-contribuir)
+- [Autores e Contato](#-autores-e-contato)
+- [Licença](#-licença)
+
+---
+
+## ⚙️ Pré-requisitos
+
+Antes de iniciar, certifique-se de ter instalado em sua máquina:
+
+* [Git](https://git-scm.com/)
+* [Docker](https://docs.docker.com/get-docker/) (versão 20.10 ou superior)
+* [Docker Compose](https://docs.docker.com/compose/install/) (versão v2.0+ ou plugin integrado ao Docker Desktop)
+
+---
+
+## 📁 Estrutura do Repositório
+
+```text
+env-docker/
+├── .github/              # Automações e workflows CI/CD
+├── notebooks/            # Diretório montado para notebooks Jupyter
+├── src/                  # Código-fonte e scripts auxiliares
+├── Dockerfile            # Definição do contêiner e dependências
+├── docker-compose.yml    # Gerenciamento dos serviços e volumes
+├── requirements.txt      # Pacotes Python pré-instalados
+└── README.md             # Documentação do projeto
+```
+
+---
+
+## 🚀 Instalação e Configuração
+
+Siga os passos abaixo para clonar o repositório e subir o ambiente localmente:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/Laboratorio-de-Analise-de-Dados/env-docker.git
+   cd env-docker
+   ```
+
+2. **Copie o arquivo de variáveis de ambiente (se aplicável):**
+   ```bash
+   cp .env.example .env
+   ```
+
+3. **Construa e inicie os contêineres Docker:**
+   ```bash
+   docker compose up -d --build
+   ```
+
+---
+
+## 💻 Como Usar
+
+### Acessando o Jupyter Lab
+Após subir o contêiner, acesse o Jupyter Lab pelo navegador através da URL:
+```text
+http://localhost:8888
+```
+*(Caso haja token de acesso configurado, verifique a saída do terminal com o comando `docker compose logs -f`)*.
+
+### Executando comandos dentro do contêiner
+Para rodar scripts em Python ou utilizar o terminal interativo dentro do ambiente isolado:
+```bash
+docker compose exec app bash
+```
+
+### Parando o ambiente
+Para encerrar os serviços sem perder os arquivos salvos nos volumes:
+```bash
+docker compose down
+```
+
+---
+
+## 🧪 Dependências Pré-instaladas
+
+O ambiente vem configurado por padrão com a pilha essencial de Ciência de Dados:
+
+* **Manipulação e Análise de Dados:** `pandas`, `numpy`
+* **Visualização:** `matplotlib`, `seaborn`, `plotly`
+* **Machine Learning & Estatística:** `scikit-learn`, `scipy`, `statsmodels`
+* **Ambiente de Trabalho:** `jupyterlab`, `notebook`, `ipykernel`
+
+---
+
+## 🤝 Como Contribuir
+
+Contribuições são muito bem-vindas! Se você deseja adicionar um novo pacote, corrigir um bug ou melhorar a documentação:
+
+1. Faça um **Fork** do repositório.
+2. Crie uma branch para a sua feature (`git checkout -b feature/MinhaFeature`).
+3. Faça o **Commit** das suas alterações (`git commit -m 'feat: adiciona biblioteca X'`).
+4. Envie as alterações para a sua branch (`git push origin feature/MinhaFeature`).
+5. Abra um **Pull Request**.
+
+---
+
+## 👥 Autores e Contato
+
+Desenvolvido e mantido pela equipe do **Laboratório de Análise de Dados — data.lab()**.
+
+* 🌐 **Website:** [datalab.in.net](https://datalab.in.net/)
+* 📧 **E-mail:** [gfsilveira@gmail.com](mailto:gfsilveira@gmail.com)
+* 🐙 **GitHub:** [@Laboratorio-de-Analise-de-Dados](https://github.com/Laboratorio-de-Analise-de-Dados)
+
+---
+
+## 📜 Licença
+
+Este projeto é distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
