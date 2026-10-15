@@ -1,10 +1,10 @@
 version: "3.7"
 services:
-    python-env:
+    img-pep:
         build: 
             dockerfile: ./python.Dockerfile
             context: .
-        container_name: python-env
+        container_name: img-pep
         volumes:
             - ./../script:/usr/src/myapp
         networks:
