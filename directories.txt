@@ -250,46 +250,51 @@ C:.
         |   |               Experiment_CHO_ICAM_105_5ug_12_ch01.tif
         |   |               
         |   \---imagens de contraste de fase (CHO745)
-        |           Experiment_CHO_745_EFGP_v01_ch00_rot588.tif
-        |           Experiment_CHO_745_EFGP_v02_ch00_rot790.tif
-        |           Experiment_CHO_745_EFGP_v03_ch00_rot571.tif
-        |           Experiment_CHO_745_EFGP_v04_ch00_rot648.tif
-        |           Experiment_CHO_745_EFGP_v05_ch00_rot576.tif
-        |           Experiment_CHO_745_EFGP_v06_ch00_rot827.tif
-        |           Experiment_CHO_745_EFGP_v07_ch00_rot701.tif
-        |           Experiment_CHO_745_EFGP_v08_ch00_rot306.tif
-        |           Experiment_CHO_745_EFGP_v09_ch00_rot520.tif
-        |           Experiment_CHO_745_EFGP_v10_ch00_rot738.tif
-        |           Experiment_CHO_745_EFGP_v11_ch00_rot712.tif
-        |           Experiment_CHO_745_EFGP_v12_ch00_rot297.tif
-        |           Experiment_CHO_745_EFGP_v13_ch00_rot483.tif
-        |           Experiment_CHO_745_EFGP_v14_ch00_rot123.tif
-        |           Experiment_CHO_745_EFGP_v15_ch00_rot218.tif
-        |           Experiment_CHO_745_EFGP_v16_ch00_rot195.tif
-        |           Experiment_CHO_745_EFGP_v17_ch00_rot367.tif
-        |           Experiment_CHO_745_EFGP_v18_ch00_rot134.tif
-        |           Experiment_CHO_745_EFGP_v19_ch00_rot282.tif
-        |           Experiment_CHO_745_EFGP_v20_ch00_rot230.tif
-        |           Experiment_CHO_745_EFGP_v21_ch00_rot198.tif
-        |           Experiment_CHO_745_EFGP_v22_ch00_rot148.tif
-        |           Experiment_CHO_745_EFGP_v23_ch00_rot190.tif
-        |           Experiment_CHO_745_EFGP_v25_ch00_rot256.tif
-        |           Experiment_CHO_745_EFGP_v26_ch00_rot89.tif
-        |           Experiment_CHO_745_EFGP_v27_ch00_rot176.tif
-        |           Experiment_CHO_745_EFGP_v28_ch00_rot225.tif
-        |           Experiment_CHO_745_EFGP_v29_ch00_rot305.tif
-        |           Experiment_CHO_745_EFGP_v30_ch00_rot285.tif
-        |           Experiment_CHO_745_EFGP_v31_ch00_rot242.tif
-        |           Experiment_CHO_745_EFGP_v32_ch00_rot218.tif
-        |           Experiment_CHO_745_EFGP_v33_ch00_rot66.tif
-        |           Experiment_CHO_745_EFGP_v34_ch00_rot513.tif
-        |           Experiment_CHO_745_EFGP_v35_ch00_rot668.tif
-        |           Experiment_CHO_745_EFGP_v36_ch00_rot435.tif
-        |           Experiment_CHO_745_EFGP_v37_ch00_rot391.tif
-        |           Experiment_CHO_745_EFGP_v38_ch00_rot478.tif
-        |           Experiment_CHO_745_EFGP_v39_ch00_rot450.tif
-        |           Experiment_CHO_745_EFGP_v40_ch00_rot275.tif
-        |           
+        |       +---test
+        |       |       Experiment_CHO_745_EFGP_v04_ch00_rot648.tif
+        |       |       Experiment_CHO_745_EFGP_v11_ch00_rot712.tif
+        |       |       Experiment_CHO_745_EFGP_v19_ch00_rot282.tif
+        |       |       Experiment_CHO_745_EFGP_v21_ch00_rot198.tif
+        |       |       Experiment_CHO_745_EFGP_v23_ch00_rot190.tif
+        |       |       Experiment_CHO_745_EFGP_v25_ch00_rot256.tif
+        |       |       Experiment_CHO_745_EFGP_v33_ch00_rot66.tif
+        |       |       Experiment_CHO_745_EFGP_v36_ch00_rot435.tif
+        |       |       
+        |       +---train
+        |       |       Experiment_CHO_745_EFGP_v01_ch00_rot588.tif
+        |       |       Experiment_CHO_745_EFGP_v02_ch00_rot790.tif
+        |       |       Experiment_CHO_745_EFGP_v03_ch00_rot571.tif
+        |       |       Experiment_CHO_745_EFGP_v05_ch00_rot576.tif
+        |       |       Experiment_CHO_745_EFGP_v06_ch00_rot827.tif
+        |       |       Experiment_CHO_745_EFGP_v07_ch00_rot701.tif
+        |       |       Experiment_CHO_745_EFGP_v09_ch00_rot520.tif
+        |       |       Experiment_CHO_745_EFGP_v10_ch00_rot738.tif
+        |       |       Experiment_CHO_745_EFGP_v12_ch00_rot297.tif
+        |       |       Experiment_CHO_745_EFGP_v13_ch00_rot483.tif
+        |       |       Experiment_CHO_745_EFGP_v14_ch00_rot123.tif
+        |       |       Experiment_CHO_745_EFGP_v16_ch00_rot195.tif
+        |       |       Experiment_CHO_745_EFGP_v17_ch00_rot367.tif
+        |       |       Experiment_CHO_745_EFGP_v18_ch00_rot134.tif
+        |       |       Experiment_CHO_745_EFGP_v20_ch00_rot230.tif
+        |       |       Experiment_CHO_745_EFGP_v22_ch00_rot148.tif
+        |       |       Experiment_CHO_745_EFGP_v26_ch00_rot89.tif
+        |       |       Experiment_CHO_745_EFGP_v27_ch00_rot176.tif
+        |       |       Experiment_CHO_745_EFGP_v28_ch00_rot225.tif
+        |       |       Experiment_CHO_745_EFGP_v29_ch00_rot305.tif
+        |       |       Experiment_CHO_745_EFGP_v31_ch00_rot242.tif
+        |       |       Experiment_CHO_745_EFGP_v32_ch00_rot218.tif
+        |       |       Experiment_CHO_745_EFGP_v34_ch00_rot513.tif
+        |       |       Experiment_CHO_745_EFGP_v35_ch00_rot668.tif
+        |       |       Experiment_CHO_745_EFGP_v37_ch00_rot391.tif
+        |       |       Experiment_CHO_745_EFGP_v38_ch00_rot478.tif
+        |       |       Experiment_CHO_745_EFGP_v39_ch00_rot450.tif
+        |       |       
+        |       \---valid
+        |               Experiment_CHO_745_EFGP_v08_ch00_rot306.tif
+        |               Experiment_CHO_745_EFGP_v15_ch00_rot218.tif
+        |               Experiment_CHO_745_EFGP_v30_ch00_rot285.tif
+        |               Experiment_CHO_745_EFGP_v40_ch00_rot275.tif
+        |               
         \---old
                 1_Retirada_excesso_pixel_old.ipynb
                 2_CHO_745_GST_05_06_24 copy.ipynb
