@@ -28,6 +28,9 @@ C:.
         |   16-crossvalidation_Modelo_regressão_contraste_10_03_25.ipynb
         |   1_Retirada_excesso_pixel_2026-10-09.ipynb
         |   21-ampliação_img_predição_HBMEC_realce_01-07-25.ipynb
+        |   23-ampliação_img_predição_HUVEC_realce_16-07-25.ipynb
+        |   25-Modelo_regressão_HBMEC_13-11-25.ipynb
+        |   26-Modelo_regressão_HUVEC_14-11-25.ipynb
         |   27-Correlação_validação_campo_fluorescente_HBMEC_13_11_25.ipynb
         |   28-Correlação_validação_campo_fluorescente_HUVEC_13_11_25.ipynb
         |   8-Ampliação do banco imagens contraste-10-09-24.ipynb
@@ -353,40 +356,93 @@ C:.
         |   |       modelo_fluore_100_75_50_25_2026-10-17.keras
         |   |       rótulos_validação_10%_fluore_2026-10-17.gz
         |   |       
-        |   \---realcadas_verde_HBMC
-        |           lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
+        |   +---realcadas_verde_HBMC
+        |   |       imagens_HBMEC_validação_10%_fluore_2026-10-17.gz
+        |   |       imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+        |   |       lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
+        |   |       lista_rotulo_100_resized_regre_balb-roseta_2026-10-17.gz
+        |   |       modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
+        |   |       realcada_Experiment_HBMEC_096_01_ch01_rot0.154757.tif
+        |   |       realcada_Experiment_HBMEC_096_02_ch01_rot0.138553.tif
+        |   |       realcada_Experiment_HBMEC_096_03_ch01_rot0.160986.tif
+        |   |       realcada_Experiment_HBMEC_096_04_ch01_rot0.127821.tif
+        |   |       realcada_Experiment_HBMEC_096_05_ch01_rot0.180817.tif
+        |   |       realcada_Experiment_HBMEC_096_06_ch01_rot0.164756.tif
+        |   |       realcada_Experiment_HBMEC_096_07_ch01_rot0.166864.tif
+        |   |       realcada_Experiment_HBMEC_096_08_ch01_rot0.188495.tif
+        |   |       realcada_Experiment_HBMEC_096_09_ch01_rot0.163527.tif
+        |   |       realcada_Experiment_HBMEC_096_10_ch01_rot0.154551.tif
+        |   |       realcada_Experiment_HBMEC_105_01_ch01_rot0.435090.tif
+        |   |       realcada_Experiment_HBMEC_105_02_ch01_rot0.173011.tif
+        |   |       realcada_Experiment_HBMEC_105_03_ch01_rot0.408415.tif
+        |   |       realcada_Experiment_HBMEC_105_04_ch01_rot0.307947.tif
+        |   |       realcada_Experiment_HBMEC_105_05_ch01_rot0.428906.tif
+        |   |       realcada_Experiment_HBMEC_105_06_ch01_rot0.436615.tif
+        |   |       realcada_Experiment_HBMEC_105_07_ch01_rot0.403093.tif
+        |   |       realcada_Experiment_HBMEC_105_08_ch01_rot0.371291.tif
+        |   |       realcada_Experiment_HBMEC_105_09_ch01_rot0.370098.tif
+        |   |       realcada_Experiment_HBMEC_105_10_ch01_rot0.318978.tif
+        |   |       realcada_Experiment_HBMEC_105_11_ch01_rot0.186781.tif
+        |   |       realcada_Experiment_HBMEC_GST_01_ch01_rot0.223602.tif
+        |   |       realcada_Experiment_HBMEC_GST_02_ch01_rot0.216760.tif
+        |   |       realcada_Experiment_HBMEC_GST_03_ch01_rot0.185403.tif
+        |   |       realcada_Experiment_HBMEC_GST_04_ch01_rot0.229978.tif
+        |   |       realcada_Experiment_HBMEC_GST_05_ch01_rot0.195044.tif
+        |   |       realcada_Experiment_HBMEC_GST_06_ch01_rot0.197190.tif
+        |   |       realcada_Experiment_HBMEC_GST_07_ch01_rot0.231501.tif
+        |   |       realcada_Experiment_HBMEC_GST_08_ch01_rot0.173558.tif
+        |   |       realcada_Experiment_HBMEC_GST_09_ch01_rot0.190686.tif
+        |   |       realcada_Experiment_HBMEC_GST_10_ch01_rot0.165657.tif
+        |   |       rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+        |   |       rótulos_HBMEC_validação_10%_fluore_2026-10-17.gz
+        |   |       
+        |   \---realcadas_verde_HUVEC
+        |           imagens_HUVEC_validação_10%_fluore_2026-10-17.gz
+        |           imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+        |           lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
         |           lista_img_100_resized_regre_campo_claro_2026-10-17.gz
-        |           realcada_Experiment_HBMEC_096_01_ch01_rot0.154757.tif
-        |           realcada_Experiment_HBMEC_096_02_ch01_rot0.138553.tif
-        |           realcada_Experiment_HBMEC_096_03_ch01_rot0.160986.tif
-        |           realcada_Experiment_HBMEC_096_04_ch01_rot0.127821.tif
-        |           realcada_Experiment_HBMEC_096_05_ch01_rot0.180817.tif
-        |           realcada_Experiment_HBMEC_096_06_ch01_rot0.164756.tif
-        |           realcada_Experiment_HBMEC_096_07_ch01_rot0.166864.tif
-        |           realcada_Experiment_HBMEC_096_08_ch01_rot0.188495.tif
-        |           realcada_Experiment_HBMEC_096_09_ch01_rot0.163527.tif
-        |           realcada_Experiment_HBMEC_096_10_ch01_rot0.154551.tif
-        |           realcada_Experiment_HBMEC_105_01_ch01_rot0.435090.tif
-        |           realcada_Experiment_HBMEC_105_02_ch01_rot0.173011.tif
-        |           realcada_Experiment_HBMEC_105_03_ch01_rot0.408415.tif
-        |           realcada_Experiment_HBMEC_105_04_ch01_rot0.307947.tif
-        |           realcada_Experiment_HBMEC_105_05_ch01_rot0.428906.tif
-        |           realcada_Experiment_HBMEC_105_06_ch01_rot0.436615.tif
-        |           realcada_Experiment_HBMEC_105_07_ch01_rot0.403093.tif
-        |           realcada_Experiment_HBMEC_105_08_ch01_rot0.371291.tif
-        |           realcada_Experiment_HBMEC_105_09_ch01_rot0.370098.tif
-        |           realcada_Experiment_HBMEC_105_10_ch01_rot0.318978.tif
-        |           realcada_Experiment_HBMEC_105_11_ch01_rot0.186781.tif
-        |           realcada_Experiment_HBMEC_GST_01_ch01_rot0.223602.tif
-        |           realcada_Experiment_HBMEC_GST_02_ch01_rot0.216760.tif
-        |           realcada_Experiment_HBMEC_GST_03_ch01_rot0.185403.tif
-        |           realcada_Experiment_HBMEC_GST_04_ch01_rot0.229978.tif
-        |           realcada_Experiment_HBMEC_GST_05_ch01_rot0.195044.tif
-        |           realcada_Experiment_HBMEC_GST_06_ch01_rot0.197190.tif
-        |           realcada_Experiment_HBMEC_GST_07_ch01_rot0.231501.tif
-        |           realcada_Experiment_HBMEC_GST_08_ch01_rot0.173558.tif
-        |           realcada_Experiment_HBMEC_GST_09_ch01_rot0.190686.tif
-        |           realcada_Experiment_HBMEC_GST_10_ch01_rot0.165657.tif
+        |           lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
+        |           modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
+        |           realcada_Experiment_HUVEC_GST_v01_ch01_rot0.070038.tif
+        |           realcada_Experiment_HUVEC_GST_v02_ch01_rot0.068888.tif
+        |           realcada_Experiment_HUVEC_GST_v03_ch01_rot0.070178.tif
+        |           realcada_Experiment_HUVEC_GST_v04_ch01_rot0.067018.tif
+        |           realcada_Experiment_HUVEC_GST_v05_ch01_rot0.065635.tif
+        |           realcada_Experiment_HUVEC_GST_v06_ch01_rot0.067453.tif
+        |           realcada_Experiment_HUVEC_GST_v07_ch01_rot0.069308.tif
+        |           realcada_Experiment_HUVEC_GST_v08_ch01_rot0.068375.tif
+        |           realcada_Experiment_HUVEC_GST_v09_ch01_rot0.068257.tif
+        |           realcada_Experiment_HUVEC_GST_v10_ch01_rot0.071546.tif
+        |           realcada_Experiment_HUVEC_GST_v11_ch01_rot0.068760.tif
+        |           realcada_Experiment_HUVEC_GST_v12_ch01_rot0.071201.tif
+        |           realcada_Experiment_HUVEC_GST_v13_ch01_rot0.072419.tif
+        |           realcada_Experiment_HUVEC_GST_v14_ch01_rot0.070659.tif
+        |           realcada_Experiment_HUVEC_GST_v15_ch01_rot0.070864.tif
+        |           realcada_Experiment_HUVEC_ICAM1_v05_ch01_rot0.063423.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v01_ch01_rot0.117536.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v02_ch01_rot0.103083.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v03_ch01_rot0.078077.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v04_ch01_rot0.101537.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v05_ch01_rot0.159318.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v06_ch01_rot0.119242.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v07_ch01_rot0.109643.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v08_ch01_rot0.095412.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v09_ch01_rot0.091715.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v10_ch01_rot0.109804.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v11_ch01_rot0.113195.tif
+        |           realcada_Experiment_HUVEC_PVX_105_v12_ch01_rot0.144051.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_01_ch00_rot0.338015.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_01_ch01_rot0.067398.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_02_ch01_rot0.067406.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_03_ch01_rot0.067253.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.0689.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.068904.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_05_ch01_rot0.071255.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_06_ch01_rot0.070044.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_07_ch01_rot0.071514.tif
+        |           realcada_Experiment_HUVEC_TNF_GST_08_ch01_rot0.071977.tif
+        |           rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+        |           rótulos_HUVEC_validação_10%_fluore_2026-10-17.gz
         |           
         \---old
                 17-ampliação_img_predição_campo_claro_11_02_25.ipynb
@@ -395,10 +451,7 @@ C:.
                 1_Retirada_excesso_pixel_old.ipynb
                 20-predição_novas_img_BAELB_campo_fluo_plasmodium_11_02_25.ipynb
                 22-predição_novas_img_HBMEC_11_06_25.ipynb
-                23-ampliação_img_predição_HUVEC_realce_16-07-25
                 24-predição_novas_img_HUVEC_11_06_25.ipynb
-                25-Modelo_regressão_HBMEC_13-11-25.ipynb
-                26-Modelo_regressão_HUVEC_14-11-25.ipynb
                 2_CHO_745_GST_05_06_24 copy.ipynb
                 2_CHO_GTS_745_05_06_24.ipynb
                 3_CHO_VIR_745_05_06_24.ipynb
