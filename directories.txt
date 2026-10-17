@@ -28,11 +28,6 @@ C:.
         |   16-crossvalidation_Modelo_regressão_contraste_10_03_25.ipynb
         |   1_Retirada_excesso_pixel_2026-10-09.ipynb
         |   21-ampliação_img_predição_HBMEC_realce_01-07-25.ipynb
-        |   22-predição_novas_img_HBMEC_11_06_25.ipynb
-        |   23-ampliação_img_predição_HUVEC_realce_16-07-25
-        |   24-predição_novas_img_HUVEC_11_06_25.ipynb
-        |   25-Modelo_regressão_HBMEC_13-11-25.ipynb
-        |   26-Modelo_regressão_HUVEC_14-11-25.ipynb
         |   27-Correlação_validação_campo_fluorescente_HBMEC_13_11_25.ipynb
         |   28-Correlação_validação_campo_fluorescente_HUVEC_13_11_25.ipynb
         |   8-Ampliação do banco imagens contraste-10-09-24.ipynb
@@ -359,6 +354,8 @@ C:.
         |   |       rótulos_validação_10%_fluore_2026-10-17.gz
         |   |       
         |   \---realcadas_verde_HBMC
+        |           lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
+        |           lista_img_100_resized_regre_campo_claro_2026-10-17.gz
         |           realcada_Experiment_HBMEC_096_01_ch01_rot0.154757.tif
         |           realcada_Experiment_HBMEC_096_02_ch01_rot0.138553.tif
         |           realcada_Experiment_HBMEC_096_03_ch01_rot0.160986.tif
@@ -397,6 +394,11 @@ C:.
                 19-ampliação_img_predição_campo_fluorescente_11_02_25
                 1_Retirada_excesso_pixel_old.ipynb
                 20-predição_novas_img_BAELB_campo_fluo_plasmodium_11_02_25.ipynb
+                22-predição_novas_img_HBMEC_11_06_25.ipynb
+                23-ampliação_img_predição_HUVEC_realce_16-07-25
+                24-predição_novas_img_HUVEC_11_06_25.ipynb
+                25-Modelo_regressão_HBMEC_13-11-25.ipynb
+                26-Modelo_regressão_HUVEC_14-11-25.ipynb
                 2_CHO_745_GST_05_06_24 copy.ipynb
                 2_CHO_GTS_745_05_06_24.ipynb
                 3_CHO_VIR_745_05_06_24.ipynb
