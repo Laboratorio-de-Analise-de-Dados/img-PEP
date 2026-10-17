@@ -255,7 +255,7 @@ C:.
         |           2_rotulos_de_y_train_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
         |           3_images_de_X_test_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
         |           4_rotulos_de_y_test_fluor_melhor_model_200_epochs_90%_2026-10-16.gz
-        |           imagens_validação_10%_fluore_2026-10-16.gz
+        |           imagens_validacao_10%_fluore_2026-10-16.gz
         |           lista_file_names_resized_regre_cho745_2026-10-16.gz
         |           lista_img_100_resized_regre_cho745_2026-10-16.gz
         |           lista_img_25_resized_regre_cho745_2026-10-16.gz
@@ -267,7 +267,7 @@ C:.
         |           lista_rotulo_75_resized_regre_cho745_2026-10-16.gz
         |           modelo_fluore_100_75_50_25_2026-10-16.keras
         |           modelo_fluore_100_75_50_25_pre_divisao_banco2026-10-16.keras
-        |           rótulos_validação_10%_fluore_2026-10-16.gz
+        |           rótulos_validacao_10%_fluore_2026-10-16.gz
         |           test_Experiment_CHO_745_EFGP_v04_ch00_rot648.tif
         |           test_Experiment_CHO_745_EFGP_v11_ch00_rot712.tif
         |           test_Experiment_CHO_745_EFGP_v19_ch00_rot282.tif
