@@ -350,6 +350,7 @@ C:.
         |           Experiment_CHO_745_EFGP_v38_rot167.tif
         |           Experiment_CHO_745_EFGP_v39_rot163.tif
         |           Experiment_CHO_745_EFGP_v40_rot124.tif
+        |           imagens_validação_10%_fluore_2026-10-17.gz
         |           lista_img_100_resized_fluorescente_cho745_2026-10-17.gz
         |           lista_img_25_resized_fluorescente_cho745_2026-10-17.gz
         |           lista_img_50_resized_fluorescente_cho745_2026-10-17.gz
@@ -358,6 +359,8 @@ C:.
         |           lista_rotulo_25_resized_fluorescente_cho745_2026-10-17.gz
         |           lista_rotulo_50_resized_fluorescente_cho745_2026-10-17.gz
         |           lista_rotulo_75_resized_fluorescente_cho745_2026-10-17.gz
+        |           modelo_fluore_100_75_50_25_2026-10-17.keras
+        |           rótulos_validação_10%_fluore_2026-10-17.gz
         |           
         \---old
                 1_Retirada_excesso_pixel_old.ipynb
