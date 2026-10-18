@@ -33,438 +33,412 @@ C:.
         |   26-Modelo_regressão_HUVEC_14-11-25.ipynb
         |   27-Correlação_validação_campo_fluorescente_HBMEC_13_11_25.ipynb
         |   28-Correlação_validação_campo_fluorescente_HUVEC_13_11_25.ipynb
+        |   29-Correlação_validação_fluor_22-08-24.ipynb
         |   8-Ampliação do banco imagens contraste-10-09-24.ipynb
-        |   Correlação_validação_fluor_22-08-24.ipynb
         |   
-        +---data
-        |   +---imagem_conjunto
-        |   |   +---CHO-745
-        |   |   |   +---Controle
-        |   |   |   |       dataframe-CHO745-Ctrl-fluorescente-0,01%-2026-10-16.gz
-        |   |   |   |       Experiment_CHO_745_cntl_CHO_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_CHO_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_CHO_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_CHO_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_CHO_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v06_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v07_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v08_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v09_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_ICAM_v10_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Mouse_v06_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_cntl_Rabbit_v06_ch01.tif
-        |   |   |   |       
-        |   |   |   +---GST
-        |   |   |   |       dataframe-CHO745-GST-fluorescente-0,01%-2026-10-16.gz
-        |   |   |   |       Experiment_CHO_745_GST_anti_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v06_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v07_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v08_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v10_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_anti_v9_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v01_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v02_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v03_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v04_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v05_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v06_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v07_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v08_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v09_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v10_ch01.tif
-        |   |   |   |       Experiment_CHO_745_GST_v11_ch01.tif
-        |   |   |   |       
-        |   |   |   \---VIR
-        |   |   |           dataframe-CHO745-VIR-fluorescente-0,01%-2026-10-16.gz
-        |   |   |           Experiment_CHO_745_096_anti_v01_ch01.tif
-        |   |   |           Experiment_CHO_745_096_anti_v02_ch01.tif
-        |   |   |           Experiment_CHO_745_096_anti_v03_ch01.tif
-        |   |   |           Experiment_CHO_745_096_anti_v04_ch01.tif
-        |   |   |           Experiment_CHO_745_096_anti_v05_ch01.tif
-        |   |   |           Experiment_CHO_745_096_v01_ch01.tif
-        |   |   |           Experiment_CHO_745_096_v02_ch01.tif
-        |   |   |           Experiment_CHO_745_096_v03_ch01.tif
-        |   |   |           Experiment_CHO_745_096_v04_ch01.tif
-        |   |   |           Experiment_CHO_745_096_v05_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v01_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v02_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v03_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v04_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v05_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v06_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v07_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v08_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v09_ch01.tif
-        |   |   |           Experiment_CHO_745_105_anti_v10_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v01_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v02_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v03_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v04_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v05_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v06_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v07_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v08_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v09_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v10_ch01.tif
-        |   |   |           Experiment_CHO_745_105_v11_ch01.tif
-        |   |   |           
-        |   |   \---CHO-ICAM
-        |   |       +---Controle
-        |   |       |       dataframe-CHOICAM-Ctrl-fluorescente-0,01%-2026-10-16.gz
-        |   |       |       Experiment_CHO_ICAM_cntl_cel_1_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_cel_2_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_cel_3_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_cel_4_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_10_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_1_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_2_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_3_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_4_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_5_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_6_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_7_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_8_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_ICAM_9_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_1_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_2_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_3_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_4_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_1_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_2_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_3_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_4_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_6_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_7_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_8_ch01.tif
-        |   |       |       
-        |   |       +---GST
-        |   |       |       dataframe-CHOICAM-GST-fluorescente-0,01%-2026-10-16.gz
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_11_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_12_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_13_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_14_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_15_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_16_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_17_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_18_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_19_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_10ug_20_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_06_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_07_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_08_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_09_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_10_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_11_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_12_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_13_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_14_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_15ug_15_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_01_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_02_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_03_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_04_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_05_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_06_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_07_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_08_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_09_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_20ug_10_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_11_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_12_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_13_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_14_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_15_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_16_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_17_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_18_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_19_ch01.tif
-        |   |       |       Experiment_CHO_ICAM_GST_5ug_20_ch01.tif
-        |   |       |       
-        |   |       \---VIR
-        |   |               dataframe-CHOICAM-VIR-fluorescente-0,01%-2026-10-16.gz
-        |   |               Experiment_CHO_ICAM_105_10ug_01_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_02_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_03_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_04_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_05_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_06_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_07_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_08_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_09_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_10ug_10_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_01_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_02_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_03_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_04_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_05_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_06_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_07_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_08_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_09_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_15ug_10_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_01_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_02_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_03_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_04_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_05_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_06_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_07_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_08_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_09_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_10_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_20ug_11_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_01_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_02_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_03_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_04_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_05_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_06_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_07_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_08_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_09_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_10_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_11_ch01.tif
-        |   |               Experiment_CHO_ICAM_105_5ug_12_ch01.tif
-        |   |               
-        |   +---imagens de contraste de fase (CHO745)
-        |   |       1_images_de_X_train_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
-        |   |       2_rotulos_de_y_train_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
-        |   |       3_images_de_X_test_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
-        |   |       4_rotulos_de_y_test_fluor_melhor_model_200_epochs_90%_2026-10-16.gz
-        |   |       imagens_validacao_10%_fluore_2026-10-16.gz
-        |   |       lista_file_names_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_img_100_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_img_25_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_img_50_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_img_75_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_rotulo_100_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_rotulo_25_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_rotulo_50_resized_regre_cho745_2026-10-16.gz
-        |   |       lista_rotulo_75_resized_regre_cho745_2026-10-16.gz
-        |   |       modelo_fluore_100_75_50_25_2026-10-16.keras
-        |   |       modelo_fluore_100_75_50_25_pre_divisao_banco2026-10-16.keras
-        |   |       rótulos_validacao_10%_fluore_2026-10-16.gz
-        |   |       test_Experiment_CHO_745_EFGP_v04_ch00_rot648.tif
-        |   |       test_Experiment_CHO_745_EFGP_v11_ch00_rot712.tif
-        |   |       test_Experiment_CHO_745_EFGP_v19_ch00_rot282.tif
-        |   |       test_Experiment_CHO_745_EFGP_v21_ch00_rot198.tif
-        |   |       test_Experiment_CHO_745_EFGP_v23_ch00_rot190.tif
-        |   |       test_Experiment_CHO_745_EFGP_v25_ch00_rot256.tif
-        |   |       test_Experiment_CHO_745_EFGP_v33_ch00_rot66.tif
-        |   |       test_Experiment_CHO_745_EFGP_v36_ch00_rot435.tif
-        |   |       train_Experiment_CHO_745_EFGP_v01_ch00_rot588.tif
-        |   |       train_Experiment_CHO_745_EFGP_v02_ch00_rot790.tif
-        |   |       train_Experiment_CHO_745_EFGP_v03_ch00_rot571.tif
-        |   |       train_Experiment_CHO_745_EFGP_v05_ch00_rot576.tif
-        |   |       train_Experiment_CHO_745_EFGP_v06_ch00_rot827.tif
-        |   |       train_Experiment_CHO_745_EFGP_v07_ch00_rot701.tif
-        |   |       train_Experiment_CHO_745_EFGP_v09_ch00_rot520.tif
-        |   |       train_Experiment_CHO_745_EFGP_v10_ch00_rot738.tif
-        |   |       train_Experiment_CHO_745_EFGP_v12_ch00_rot297.tif
-        |   |       train_Experiment_CHO_745_EFGP_v13_ch00_rot483.tif
-        |   |       train_Experiment_CHO_745_EFGP_v14_ch00_rot123.tif
-        |   |       train_Experiment_CHO_745_EFGP_v16_ch00_rot195.tif
-        |   |       train_Experiment_CHO_745_EFGP_v17_ch00_rot367.tif
-        |   |       train_Experiment_CHO_745_EFGP_v18_ch00_rot134.tif
-        |   |       train_Experiment_CHO_745_EFGP_v20_ch00_rot230.tif
-        |   |       train_Experiment_CHO_745_EFGP_v22_ch00_rot148.tif
-        |   |       train_Experiment_CHO_745_EFGP_v26_ch00_rot89.tif
-        |   |       train_Experiment_CHO_745_EFGP_v27_ch00_rot176.tif
-        |   |       train_Experiment_CHO_745_EFGP_v28_ch00_rot225.tif
-        |   |       train_Experiment_CHO_745_EFGP_v29_ch00_rot305.tif
-        |   |       train_Experiment_CHO_745_EFGP_v31_ch00_rot242.tif
-        |   |       train_Experiment_CHO_745_EFGP_v32_ch00_rot218.tif
-        |   |       train_Experiment_CHO_745_EFGP_v34_ch00_rot513.tif
-        |   |       train_Experiment_CHO_745_EFGP_v35_ch00_rot668.tif
-        |   |       train_Experiment_CHO_745_EFGP_v37_ch00_rot391.tif
-        |   |       train_Experiment_CHO_745_EFGP_v38_ch00_rot478.tif
-        |   |       train_Experiment_CHO_745_EFGP_v39_ch00_rot450.tif
-        |   |       valid_Experiment_CHO_745_EFGP_v08_ch00_rot306.tif
-        |   |       valid_Experiment_CHO_745_EFGP_v15_ch00_rot218.tif
-        |   |       valid_Experiment_CHO_745_EFGP_v30_ch00_rot285.tif
-        |   |       valid_Experiment_CHO_745_EFGP_v40_ch00_rot275.tif
-        |   |       
-        |   +---imagens de fluorescencia
-        |   |       Experiment_CHO_745_EFGP_v01_rot165.tif
-        |   |       Experiment_CHO_745_EFGP_v02_rot208.tif
-        |   |       Experiment_CHO_745_EFGP_v03_rot187.tif
-        |   |       Experiment_CHO_745_EFGP_v04_rot227.tif
-        |   |       Experiment_CHO_745_EFGP_v05_rot203.tif
-        |   |       Experiment_CHO_745_EFGP_v06_rot201.tif
-        |   |       Experiment_CHO_745_EFGP_v07_rot202.tif
-        |   |       Experiment_CHO_745_EFGP_v08_rot123.tif
-        |   |       Experiment_CHO_745_EFGP_v09_rot130.tif
-        |   |       Experiment_CHO_745_EFGP_v10_rot144.tif
-        |   |       Experiment_CHO_745_EFGP_v11_rot155.tif
-        |   |       Experiment_CHO_745_EFGP_v12_rot129.tif
-        |   |       Experiment_CHO_745_EFGP_v13_rot173.tif
-        |   |       Experiment_CHO_745_EFGP_v14_rot43.tif
-        |   |       Experiment_CHO_745_EFGP_v15_rot74.tif
-        |   |       Experiment_CHO_745_EFGP_v16_rot60.tif
-        |   |       Experiment_CHO_745_EFGP_v17_rot124.tif
-        |   |       Experiment_CHO_745_EFGP_v18_rot58.tif
-        |   |       Experiment_CHO_745_EFGP_v19_rot126.tif
-        |   |       Experiment_CHO_745_EFGP_v20_rot76.tif
-        |   |       Experiment_CHO_745_EFGP_v21_rot69.tif
-        |   |       Experiment_CHO_745_EFGP_v22_rot63.tif
-        |   |       Experiment_CHO_745_EFGP_v23_rot45.tif
-        |   |       Experiment_CHO_745_EFGP_v24_rot40.tif
-        |   |       Experiment_CHO_745_EFGP_v25_rot80.tif
-        |   |       Experiment_CHO_745_EFGP_v26_rot36.tif
-        |   |       Experiment_CHO_745_EFGP_v27_rot71.tif
-        |   |       Experiment_CHO_745_EFGP_v28_rot76.tif
-        |   |       Experiment_CHO_745_EFGP_v29_rot68.tif
-        |   |       Experiment_CHO_745_EFGP_v30_rot97.tif
-        |   |       Experiment_CHO_745_EFGP_v31_rot100.tif
-        |   |       Experiment_CHO_745_EFGP_v32_rot70.tif
-        |   |       Experiment_CHO_745_EFGP_v33_rot58.tif
-        |   |       Experiment_CHO_745_EFGP_v34_rot128.tif
-        |   |       Experiment_CHO_745_EFGP_v35_rot166.tif
-        |   |       Experiment_CHO_745_EFGP_v36_rot129.tif
-        |   |       Experiment_CHO_745_EFGP_v37_rot175.tif
-        |   |       Experiment_CHO_745_EFGP_v38_rot167.tif
-        |   |       Experiment_CHO_745_EFGP_v39_rot163.tif
-        |   |       Experiment_CHO_745_EFGP_v40_rot124.tif
-        |   |       imagens_validação_10%_fluore_2026-10-17.gz
-        |   |       lista_img_100_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_img_25_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_img_50_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_img_75_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_rotulo_100_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_rotulo_25_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_rotulo_50_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       lista_rotulo_75_resized_fluorescente_cho745_2026-10-17.gz
-        |   |       modelo_fluore_100_75_50_25_2026-10-17.keras
-        |   |       rótulos_validação_10%_fluore_2026-10-17.gz
-        |   |       
-        |   +---realcadas_verde_HBMC
-        |   |       imagens_HBMEC_validação_10%_fluore_2026-10-17.gz
-        |   |       imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
-        |   |       lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
-        |   |       lista_rotulo_100_resized_regre_balb-roseta_2026-10-17.gz
-        |   |       modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
-        |   |       realcada_Experiment_HBMEC_096_01_ch01_rot0.154757.tif
-        |   |       realcada_Experiment_HBMEC_096_02_ch01_rot0.138553.tif
-        |   |       realcada_Experiment_HBMEC_096_03_ch01_rot0.160986.tif
-        |   |       realcada_Experiment_HBMEC_096_04_ch01_rot0.127821.tif
-        |   |       realcada_Experiment_HBMEC_096_05_ch01_rot0.180817.tif
-        |   |       realcada_Experiment_HBMEC_096_06_ch01_rot0.164756.tif
-        |   |       realcada_Experiment_HBMEC_096_07_ch01_rot0.166864.tif
-        |   |       realcada_Experiment_HBMEC_096_08_ch01_rot0.188495.tif
-        |   |       realcada_Experiment_HBMEC_096_09_ch01_rot0.163527.tif
-        |   |       realcada_Experiment_HBMEC_096_10_ch01_rot0.154551.tif
-        |   |       realcada_Experiment_HBMEC_105_01_ch01_rot0.435090.tif
-        |   |       realcada_Experiment_HBMEC_105_02_ch01_rot0.173011.tif
-        |   |       realcada_Experiment_HBMEC_105_03_ch01_rot0.408415.tif
-        |   |       realcada_Experiment_HBMEC_105_04_ch01_rot0.307947.tif
-        |   |       realcada_Experiment_HBMEC_105_05_ch01_rot0.428906.tif
-        |   |       realcada_Experiment_HBMEC_105_06_ch01_rot0.436615.tif
-        |   |       realcada_Experiment_HBMEC_105_07_ch01_rot0.403093.tif
-        |   |       realcada_Experiment_HBMEC_105_08_ch01_rot0.371291.tif
-        |   |       realcada_Experiment_HBMEC_105_09_ch01_rot0.370098.tif
-        |   |       realcada_Experiment_HBMEC_105_10_ch01_rot0.318978.tif
-        |   |       realcada_Experiment_HBMEC_105_11_ch01_rot0.186781.tif
-        |   |       realcada_Experiment_HBMEC_GST_01_ch01_rot0.223602.tif
-        |   |       realcada_Experiment_HBMEC_GST_02_ch01_rot0.216760.tif
-        |   |       realcada_Experiment_HBMEC_GST_03_ch01_rot0.185403.tif
-        |   |       realcada_Experiment_HBMEC_GST_04_ch01_rot0.229978.tif
-        |   |       realcada_Experiment_HBMEC_GST_05_ch01_rot0.195044.tif
-        |   |       realcada_Experiment_HBMEC_GST_06_ch01_rot0.197190.tif
-        |   |       realcada_Experiment_HBMEC_GST_07_ch01_rot0.231501.tif
-        |   |       realcada_Experiment_HBMEC_GST_08_ch01_rot0.173558.tif
-        |   |       realcada_Experiment_HBMEC_GST_09_ch01_rot0.190686.tif
-        |   |       realcada_Experiment_HBMEC_GST_10_ch01_rot0.165657.tif
-        |   |       rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
-        |   |       rótulos_HBMEC_validação_10%_fluore_2026-10-17.gz
-        |   |       
-        |   \---realcadas_verde_HUVEC
-        |           imagens_HUVEC_validação_10%_fluore_2026-10-17.gz
-        |           imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
-        |           lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
-        |           lista_img_100_resized_regre_campo_claro_2026-10-17.gz
-        |           lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
-        |           modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
-        |           realcada_Experiment_HUVEC_GST_v01_ch01_rot0.070038.tif
-        |           realcada_Experiment_HUVEC_GST_v02_ch01_rot0.068888.tif
-        |           realcada_Experiment_HUVEC_GST_v03_ch01_rot0.070178.tif
-        |           realcada_Experiment_HUVEC_GST_v04_ch01_rot0.067018.tif
-        |           realcada_Experiment_HUVEC_GST_v05_ch01_rot0.065635.tif
-        |           realcada_Experiment_HUVEC_GST_v06_ch01_rot0.067453.tif
-        |           realcada_Experiment_HUVEC_GST_v07_ch01_rot0.069308.tif
-        |           realcada_Experiment_HUVEC_GST_v08_ch01_rot0.068375.tif
-        |           realcada_Experiment_HUVEC_GST_v09_ch01_rot0.068257.tif
-        |           realcada_Experiment_HUVEC_GST_v10_ch01_rot0.071546.tif
-        |           realcada_Experiment_HUVEC_GST_v11_ch01_rot0.068760.tif
-        |           realcada_Experiment_HUVEC_GST_v12_ch01_rot0.071201.tif
-        |           realcada_Experiment_HUVEC_GST_v13_ch01_rot0.072419.tif
-        |           realcada_Experiment_HUVEC_GST_v14_ch01_rot0.070659.tif
-        |           realcada_Experiment_HUVEC_GST_v15_ch01_rot0.070864.tif
-        |           realcada_Experiment_HUVEC_ICAM1_v05_ch01_rot0.063423.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v01_ch01_rot0.117536.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v02_ch01_rot0.103083.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v03_ch01_rot0.078077.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v04_ch01_rot0.101537.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v05_ch01_rot0.159318.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v06_ch01_rot0.119242.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v07_ch01_rot0.109643.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v08_ch01_rot0.095412.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v09_ch01_rot0.091715.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v10_ch01_rot0.109804.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v11_ch01_rot0.113195.tif
-        |           realcada_Experiment_HUVEC_PVX_105_v12_ch01_rot0.144051.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_01_ch00_rot0.338015.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_01_ch01_rot0.067398.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_02_ch01_rot0.067406.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_03_ch01_rot0.067253.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.0689.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.068904.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_05_ch01_rot0.071255.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_06_ch01_rot0.070044.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_07_ch01_rot0.071514.tif
-        |           realcada_Experiment_HUVEC_TNF_GST_08_ch01_rot0.071977.tif
-        |           rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
-        |           rótulos_HUVEC_validação_10%_fluore_2026-10-17.gz
-        |           
-        \---old
-                17-ampliação_img_predição_campo_claro_11_02_25.ipynb
-                18-predição_novas_img_BAELB_campo_claro_plasmodium_11_02_25.ipynb
-                19-ampliação_img_predição_campo_fluorescente_11_02_25
-                1_Retirada_excesso_pixel_old.ipynb
-                20-predição_novas_img_BAELB_campo_fluo_plasmodium_11_02_25.ipynb
-                22-predição_novas_img_HBMEC_11_06_25.ipynb
-                24-predição_novas_img_HUVEC_11_06_25.ipynb
-                2_CHO_745_GST_05_06_24 copy.ipynb
-                2_CHO_GTS_745_05_06_24.ipynb
-                3_CHO_VIR_745_05_06_24.ipynb
-                4_CHO_VIR_745_CNTRL_05_06_24.ipynb
-                5_ICAM_GTS_05_06_24.ipynb
-                6-ICAM-VIR-05-06-24.ipynb
-                7-ICAM-CNTRL-05-06-24.ipynb
-                CHO_GTS_745_05_06_24.ipynb
-                CHO_VIR_745_05_06_24.ipynb
-                CHO_VIR_745_CNTRL_05_06_24.ipynb
-                filtro_img_2024_06_08.ipynb
-                ICAM_CNTRL_05_06_24.ipynb
-                ICAM_GTS_05_06_24.ipynb
-                ICAM_VIR_05_06_24.ipynb
-                Medida_resumo_mediana_df_img_Julia_05_06_24.ipynb
-                
+        \---data
+            +---imagem_conjunto
+            |   +---CHO-745
+            |   |   +---Controle
+            |   |   |       dataframe-CHO745-Ctrl-fluorescente-0,01%-2026-10-16.gz
+            |   |   |       Experiment_CHO_745_cntl_CHO_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_CHO_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_CHO_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_CHO_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_CHO_v05_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v05_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v06_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v07_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v08_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v09_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_ICAM_v10_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v05_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Mouse_v06_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Rabbit_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Rabbit_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Rabbit_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Rabbit_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_cntl_Rabbit_v05_ch01.tif
+            |   |   |       
+            |   |   +---GST
+            |   |   |       dataframe-CHO745-GST-fluorescente-0,01%-2026-10-16.gz
+            |   |   |       Experiment_CHO_745_GST_anti_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v05_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v06_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v07_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v08_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v10_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_anti_v9_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v01_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v02_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v03_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v04_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v05_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v06_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v07_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v08_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v09_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v10_ch01.tif
+            |   |   |       Experiment_CHO_745_GST_v11_ch01.tif
+            |   |   |       
+            |   |   \---VIR
+            |   |           dataframe-CHO745-VIR-fluorescente-0,01%-2026-10-16.gz
+            |   |           Experiment_CHO_745_096_anti_v01_ch01.tif
+            |   |           Experiment_CHO_745_096_anti_v02_ch01.tif
+            |   |           Experiment_CHO_745_096_anti_v03_ch01.tif
+            |   |           Experiment_CHO_745_096_anti_v04_ch01.tif
+            |   |           Experiment_CHO_745_096_anti_v05_ch01.tif
+            |   |           Experiment_CHO_745_096_v01_ch01.tif
+            |   |           Experiment_CHO_745_096_v02_ch01.tif
+            |   |           Experiment_CHO_745_096_v03_ch01.tif
+            |   |           Experiment_CHO_745_096_v04_ch01.tif
+            |   |           Experiment_CHO_745_096_v05_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v01_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v02_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v03_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v04_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v05_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v06_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v07_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v08_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v09_ch01.tif
+            |   |           Experiment_CHO_745_105_anti_v10_ch01.tif
+            |   |           Experiment_CHO_745_105_v01_ch01.tif
+            |   |           Experiment_CHO_745_105_v02_ch01.tif
+            |   |           Experiment_CHO_745_105_v03_ch01.tif
+            |   |           Experiment_CHO_745_105_v04_ch01.tif
+            |   |           Experiment_CHO_745_105_v05_ch01.tif
+            |   |           Experiment_CHO_745_105_v06_ch01.tif
+            |   |           Experiment_CHO_745_105_v07_ch01.tif
+            |   |           Experiment_CHO_745_105_v08_ch01.tif
+            |   |           Experiment_CHO_745_105_v09_ch01.tif
+            |   |           Experiment_CHO_745_105_v10_ch01.tif
+            |   |           Experiment_CHO_745_105_v11_ch01.tif
+            |   |           
+            |   \---CHO-ICAM
+            |       +---Controle
+            |       |       dataframe-CHOICAM-Ctrl-fluorescente-0,01%-2026-10-16.gz
+            |       |       Experiment_CHO_ICAM_cntl_cel_1_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_cel_2_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_cel_3_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_cel_4_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_10_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_1_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_2_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_3_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_4_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_5_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_6_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_7_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_8_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_ICAM_9_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_1_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_2_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_3_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Mouse_4_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_1_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_2_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_3_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_4_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_6_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_7_ch01.tif
+            |       |       Experiment_CHO_ICAM_cntl_sec_Rabbit_8_ch01.tif
+            |       |       
+            |       +---GST
+            |       |       dataframe-CHOICAM-GST-fluorescente-0,01%-2026-10-16.gz
+            |       |       Experiment_CHO_ICAM_GST_10ug_11_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_12_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_13_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_14_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_15_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_16_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_17_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_18_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_19_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_10ug_20_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_06_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_07_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_08_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_09_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_10_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_11_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_12_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_13_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_14_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_15ug_15_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_01_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_02_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_03_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_04_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_05_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_06_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_07_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_08_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_09_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_20ug_10_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_11_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_12_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_13_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_14_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_15_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_16_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_17_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_18_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_19_ch01.tif
+            |       |       Experiment_CHO_ICAM_GST_5ug_20_ch01.tif
+            |       |       
+            |       \---VIR
+            |               dataframe-CHOICAM-VIR-fluorescente-0,01%-2026-10-16.gz
+            |               Experiment_CHO_ICAM_105_10ug_01_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_02_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_03_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_04_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_05_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_06_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_07_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_08_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_09_ch01.tif
+            |               Experiment_CHO_ICAM_105_10ug_10_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_01_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_02_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_03_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_04_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_05_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_06_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_07_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_08_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_09_ch01.tif
+            |               Experiment_CHO_ICAM_105_15ug_10_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_01_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_02_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_03_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_04_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_05_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_06_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_07_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_08_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_09_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_10_ch01.tif
+            |               Experiment_CHO_ICAM_105_20ug_11_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_01_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_02_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_03_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_04_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_05_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_06_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_07_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_08_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_09_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_10_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_11_ch01.tif
+            |               Experiment_CHO_ICAM_105_5ug_12_ch01.tif
+            |               
+            +---imagens de contraste de fase (CHO745)
+            |       1_images_de_X_train_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
+            |       2_rotulos_de_y_train_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
+            |       3_images_de_X_test_fluor_melhor_modelo_200_epochs_90%_2026-10-16.gz
+            |       4_rotulos_de_y_test_fluor_melhor_model_200_epochs_90%_2026-10-16.gz
+            |       imagens_validacao_10%_fluore_2026-10-16.gz
+            |       lista_file_names_resized_regre_cho745_2026-10-16.gz
+            |       lista_img_100_resized_regre_cho745_2026-10-16.gz
+            |       lista_img_25_resized_regre_cho745_2026-10-16.gz
+            |       lista_img_50_resized_regre_cho745_2026-10-16.gz
+            |       lista_img_75_resized_regre_cho745_2026-10-16.gz
+            |       lista_rotulo_100_resized_regre_cho745_2026-10-16.gz
+            |       lista_rotulo_25_resized_regre_cho745_2026-10-16.gz
+            |       lista_rotulo_50_resized_regre_cho745_2026-10-16.gz
+            |       lista_rotulo_75_resized_regre_cho745_2026-10-16.gz
+            |       modelo_fluore_100_75_50_25_2026-10-16.keras
+            |       modelo_fluore_100_75_50_25_pre_divisao_banco2026-10-16.keras
+            |       rótulos_validacao_10%_fluore_2026-10-16.gz
+            |       test_Experiment_CHO_745_EFGP_v04_ch00_rot648.tif
+            |       test_Experiment_CHO_745_EFGP_v11_ch00_rot712.tif
+            |       test_Experiment_CHO_745_EFGP_v19_ch00_rot282.tif
+            |       test_Experiment_CHO_745_EFGP_v21_ch00_rot198.tif
+            |       test_Experiment_CHO_745_EFGP_v23_ch00_rot190.tif
+            |       test_Experiment_CHO_745_EFGP_v25_ch00_rot256.tif
+            |       test_Experiment_CHO_745_EFGP_v33_ch00_rot66.tif
+            |       test_Experiment_CHO_745_EFGP_v36_ch00_rot435.tif
+            |       train_Experiment_CHO_745_EFGP_v01_ch00_rot588.tif
+            |       train_Experiment_CHO_745_EFGP_v02_ch00_rot790.tif
+            |       train_Experiment_CHO_745_EFGP_v03_ch00_rot571.tif
+            |       train_Experiment_CHO_745_EFGP_v05_ch00_rot576.tif
+            |       train_Experiment_CHO_745_EFGP_v06_ch00_rot827.tif
+            |       train_Experiment_CHO_745_EFGP_v07_ch00_rot701.tif
+            |       train_Experiment_CHO_745_EFGP_v09_ch00_rot520.tif
+            |       train_Experiment_CHO_745_EFGP_v10_ch00_rot738.tif
+            |       train_Experiment_CHO_745_EFGP_v12_ch00_rot297.tif
+            |       train_Experiment_CHO_745_EFGP_v13_ch00_rot483.tif
+            |       train_Experiment_CHO_745_EFGP_v14_ch00_rot123.tif
+            |       train_Experiment_CHO_745_EFGP_v16_ch00_rot195.tif
+            |       train_Experiment_CHO_745_EFGP_v17_ch00_rot367.tif
+            |       train_Experiment_CHO_745_EFGP_v18_ch00_rot134.tif
+            |       train_Experiment_CHO_745_EFGP_v20_ch00_rot230.tif
+            |       train_Experiment_CHO_745_EFGP_v22_ch00_rot148.tif
+            |       train_Experiment_CHO_745_EFGP_v26_ch00_rot89.tif
+            |       train_Experiment_CHO_745_EFGP_v27_ch00_rot176.tif
+            |       train_Experiment_CHO_745_EFGP_v28_ch00_rot225.tif
+            |       train_Experiment_CHO_745_EFGP_v29_ch00_rot305.tif
+            |       train_Experiment_CHO_745_EFGP_v31_ch00_rot242.tif
+            |       train_Experiment_CHO_745_EFGP_v32_ch00_rot218.tif
+            |       train_Experiment_CHO_745_EFGP_v34_ch00_rot513.tif
+            |       train_Experiment_CHO_745_EFGP_v35_ch00_rot668.tif
+            |       train_Experiment_CHO_745_EFGP_v37_ch00_rot391.tif
+            |       train_Experiment_CHO_745_EFGP_v38_ch00_rot478.tif
+            |       train_Experiment_CHO_745_EFGP_v39_ch00_rot450.tif
+            |       valid_Experiment_CHO_745_EFGP_v08_ch00_rot306.tif
+            |       valid_Experiment_CHO_745_EFGP_v15_ch00_rot218.tif
+            |       valid_Experiment_CHO_745_EFGP_v30_ch00_rot285.tif
+            |       valid_Experiment_CHO_745_EFGP_v40_ch00_rot275.tif
+            |       
+            +---imagens de fluorescencia
+            |       Experiment_CHO_745_EFGP_v01_rot165.tif
+            |       Experiment_CHO_745_EFGP_v02_rot208.tif
+            |       Experiment_CHO_745_EFGP_v03_rot187.tif
+            |       Experiment_CHO_745_EFGP_v04_rot227.tif
+            |       Experiment_CHO_745_EFGP_v05_rot203.tif
+            |       Experiment_CHO_745_EFGP_v06_rot201.tif
+            |       Experiment_CHO_745_EFGP_v07_rot202.tif
+            |       Experiment_CHO_745_EFGP_v08_rot123.tif
+            |       Experiment_CHO_745_EFGP_v09_rot130.tif
+            |       Experiment_CHO_745_EFGP_v10_rot144.tif
+            |       Experiment_CHO_745_EFGP_v11_rot155.tif
+            |       Experiment_CHO_745_EFGP_v12_rot129.tif
+            |       Experiment_CHO_745_EFGP_v13_rot173.tif
+            |       Experiment_CHO_745_EFGP_v14_rot43.tif
+            |       Experiment_CHO_745_EFGP_v15_rot74.tif
+            |       Experiment_CHO_745_EFGP_v16_rot60.tif
+            |       Experiment_CHO_745_EFGP_v17_rot124.tif
+            |       Experiment_CHO_745_EFGP_v18_rot58.tif
+            |       Experiment_CHO_745_EFGP_v19_rot126.tif
+            |       Experiment_CHO_745_EFGP_v20_rot76.tif
+            |       Experiment_CHO_745_EFGP_v21_rot69.tif
+            |       Experiment_CHO_745_EFGP_v22_rot63.tif
+            |       Experiment_CHO_745_EFGP_v23_rot45.tif
+            |       Experiment_CHO_745_EFGP_v24_rot40.tif
+            |       Experiment_CHO_745_EFGP_v25_rot80.tif
+            |       Experiment_CHO_745_EFGP_v26_rot36.tif
+            |       Experiment_CHO_745_EFGP_v27_rot71.tif
+            |       Experiment_CHO_745_EFGP_v28_rot76.tif
+            |       Experiment_CHO_745_EFGP_v29_rot68.tif
+            |       Experiment_CHO_745_EFGP_v30_rot97.tif
+            |       Experiment_CHO_745_EFGP_v31_rot100.tif
+            |       Experiment_CHO_745_EFGP_v32_rot70.tif
+            |       Experiment_CHO_745_EFGP_v33_rot58.tif
+            |       Experiment_CHO_745_EFGP_v34_rot128.tif
+            |       Experiment_CHO_745_EFGP_v35_rot166.tif
+            |       Experiment_CHO_745_EFGP_v36_rot129.tif
+            |       Experiment_CHO_745_EFGP_v37_rot175.tif
+            |       Experiment_CHO_745_EFGP_v38_rot167.tif
+            |       Experiment_CHO_745_EFGP_v39_rot163.tif
+            |       Experiment_CHO_745_EFGP_v40_rot124.tif
+            |       imagens_validação_10%_fluore_2026-10-17.gz
+            |       lista_img_100_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_img_25_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_img_50_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_img_75_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_rotulo_100_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_rotulo_25_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_rotulo_50_resized_fluorescente_cho745_2026-10-17.gz
+            |       lista_rotulo_75_resized_fluorescente_cho745_2026-10-17.gz
+            |       modelo_fluore_100_75_50_25_2026-10-17.keras
+            |       rótulos_validação_10%_fluore_2026-10-17.gz
+            |       
+            +---realcadas_verde_HBMEC
+            |       imagens_HBMEC_validação_10%_fluore_2026-10-17.gz
+            |       imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+            |       lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
+            |       lista_rotulo_100_resized_regre_balb-roseta_2026-10-17.gz
+            |       modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
+            |       realcada_Experiment_HBMEC_096_01_ch01_rot0.154757.tif
+            |       realcada_Experiment_HBMEC_096_02_ch01_rot0.138553.tif
+            |       realcada_Experiment_HBMEC_096_03_ch01_rot0.160986.tif
+            |       realcada_Experiment_HBMEC_096_04_ch01_rot0.127821.tif
+            |       realcada_Experiment_HBMEC_096_05_ch01_rot0.180817.tif
+            |       realcada_Experiment_HBMEC_096_06_ch01_rot0.164756.tif
+            |       realcada_Experiment_HBMEC_096_07_ch01_rot0.166864.tif
+            |       realcada_Experiment_HBMEC_096_08_ch01_rot0.188495.tif
+            |       realcada_Experiment_HBMEC_096_09_ch01_rot0.163527.tif
+            |       realcada_Experiment_HBMEC_096_10_ch01_rot0.154551.tif
+            |       realcada_Experiment_HBMEC_105_01_ch01_rot0.435090.tif
+            |       realcada_Experiment_HBMEC_105_02_ch01_rot0.173011.tif
+            |       realcada_Experiment_HBMEC_105_03_ch01_rot0.408415.tif
+            |       realcada_Experiment_HBMEC_105_04_ch01_rot0.307947.tif
+            |       realcada_Experiment_HBMEC_105_05_ch01_rot0.428906.tif
+            |       realcada_Experiment_HBMEC_105_06_ch01_rot0.436615.tif
+            |       realcada_Experiment_HBMEC_105_07_ch01_rot0.403093.tif
+            |       realcada_Experiment_HBMEC_105_08_ch01_rot0.371291.tif
+            |       realcada_Experiment_HBMEC_105_09_ch01_rot0.370098.tif
+            |       realcada_Experiment_HBMEC_105_10_ch01_rot0.318978.tif
+            |       realcada_Experiment_HBMEC_105_11_ch01_rot0.186781.tif
+            |       realcada_Experiment_HBMEC_GST_01_ch01_rot0.223602.tif
+            |       realcada_Experiment_HBMEC_GST_02_ch01_rot0.216760.tif
+            |       realcada_Experiment_HBMEC_GST_03_ch01_rot0.185403.tif
+            |       realcada_Experiment_HBMEC_GST_04_ch01_rot0.229978.tif
+            |       realcada_Experiment_HBMEC_GST_05_ch01_rot0.195044.tif
+            |       realcada_Experiment_HBMEC_GST_06_ch01_rot0.197190.tif
+            |       realcada_Experiment_HBMEC_GST_07_ch01_rot0.231501.tif
+            |       realcada_Experiment_HBMEC_GST_08_ch01_rot0.173558.tif
+            |       realcada_Experiment_HBMEC_GST_09_ch01_rot0.190686.tif
+            |       realcada_Experiment_HBMEC_GST_10_ch01_rot0.165657.tif
+            |       rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+            |       rótulos_HBMEC_validação_10%_fluore_2026-10-17.gz
+            |       
+            \---realcadas_verde_HUVEC
+                    imagens_HUVEC_validação_10%_fluore_2026-10-17.gz
+                    imagens_treino_fluore_HUVEC_100_75_50_25_2026-10-17.gz
+                    lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
+                    lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
+                    modelo_fluore_HUVEC_100_75_50_25_2026-10-17.keras
+                    realcada_Experiment_HUVEC_GST_v01_ch01_rot0.070038.tif
+                    realcada_Experiment_HUVEC_GST_v02_ch01_rot0.068888.tif
+                    realcada_Experiment_HUVEC_GST_v03_ch01_rot0.070178.tif
+                    realcada_Experiment_HUVEC_GST_v04_ch01_rot0.067018.tif
+                    realcada_Experiment_HUVEC_GST_v05_ch01_rot0.065635.tif
+                    realcada_Experiment_HUVEC_GST_v06_ch01_rot0.067453.tif
+                    realcada_Experiment_HUVEC_GST_v07_ch01_rot0.069308.tif
+                    realcada_Experiment_HUVEC_GST_v08_ch01_rot0.068375.tif
+                    realcada_Experiment_HUVEC_GST_v09_ch01_rot0.068257.tif
+                    realcada_Experiment_HUVEC_GST_v10_ch01_rot0.071546.tif
+                    realcada_Experiment_HUVEC_GST_v11_ch01_rot0.068760.tif
+                    realcada_Experiment_HUVEC_GST_v12_ch01_rot0.071201.tif
+                    realcada_Experiment_HUVEC_GST_v13_ch01_rot0.072419.tif
+                    realcada_Experiment_HUVEC_GST_v14_ch01_rot0.070659.tif
+                    realcada_Experiment_HUVEC_GST_v15_ch01_rot0.070864.tif
+                    realcada_Experiment_HUVEC_ICAM1_v05_ch01_rot0.063423.tif
+                    realcada_Experiment_HUVEC_PVX_105_v01_ch01_rot0.117536.tif
+                    realcada_Experiment_HUVEC_PVX_105_v02_ch01_rot0.103083.tif
+                    realcada_Experiment_HUVEC_PVX_105_v03_ch01_rot0.078077.tif
+                    realcada_Experiment_HUVEC_PVX_105_v04_ch01_rot0.101537.tif
+                    realcada_Experiment_HUVEC_PVX_105_v05_ch01_rot0.159318.tif
+                    realcada_Experiment_HUVEC_PVX_105_v06_ch01_rot0.119242.tif
+                    realcada_Experiment_HUVEC_PVX_105_v07_ch01_rot0.109643.tif
+                    realcada_Experiment_HUVEC_PVX_105_v08_ch01_rot0.095412.tif
+                    realcada_Experiment_HUVEC_PVX_105_v09_ch01_rot0.091715.tif
+                    realcada_Experiment_HUVEC_PVX_105_v10_ch01_rot0.109804.tif
+                    realcada_Experiment_HUVEC_PVX_105_v11_ch01_rot0.113195.tif
+                    realcada_Experiment_HUVEC_PVX_105_v12_ch01_rot0.144051.tif
+                    realcada_Experiment_HUVEC_TNF_GST_01_ch00_rot0.338015.tif
+                    realcada_Experiment_HUVEC_TNF_GST_01_ch01_rot0.067398.tif
+                    realcada_Experiment_HUVEC_TNF_GST_02_ch01_rot0.067406.tif
+                    realcada_Experiment_HUVEC_TNF_GST_03_ch01_rot0.067253.tif
+                    realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.0689.tif
+                    realcada_Experiment_HUVEC_TNF_GST_04_ch01_rot0.068904.tif
+                    realcada_Experiment_HUVEC_TNF_GST_05_ch01_rot0.071255.tif
+                    realcada_Experiment_HUVEC_TNF_GST_06_ch01_rot0.070044.tif
+                    realcada_Experiment_HUVEC_TNF_GST_07_ch01_rot0.071514.tif
+                    realcada_Experiment_HUVEC_TNF_GST_08_ch01_rot0.071977.tif
+                    rotulos_treino_fluore_HUVEC_100_75_50_25_2026-10-17.gz
+                    rótulos_HUVEC_validação_10%_fluore_2026-10-17.gz
+                    
