@@ -407,7 +407,10 @@ C:.
             |   \---save
             |           imagens_HBMEC_validação_10%_fluore_2026-10-18.gz
             |           imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-18.gz
+            |           lista_imagem_100_jitter_regre_HBMEC_realce_2026-10-18.gz
+            |           lista_imagem_100_motion_regre_HBMEC_realce_2026-10-18.gz
             |           lista_imagem_100_resized_regre_HBMEC_realce_2026-10-18.gz
+            |           lista_rotulo_100_angulo_regre_balb-roseta_2026-10-18.gz
             |           lista_rotulo_100_resized_regre_balb-roseta_2026-10-18.gz
             |           modelo_fluore_HBMEC_100_75_50_25_2026-10-18.keras
             |           rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-18.gz
@@ -456,9 +459,14 @@ C:.
                 \---save
                         imagens_HUVEC_validação_10%_fluore_2026-10-18.gz
                         imagens_treino_fluore_HUVEC_100_75_50_25_2026-10-18.gz
+                        lista_imagem_100_jitter_regre_HUVEC_realce_2026-10-18.gz
+                        lista_imagem_100_motion_regre_HUVEC_realce_2026-10-18.gz
                         lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-18.gz
                         lista_img_100_resized_regre_campo_claro_2026-10-18.gz
+                        lista_rotulos_100_angulo_regre_balb-roseta_2026-10-18.gz
+                        lista_rotulos_100_angulo_regre_HUVEC_fluo_MFI_2026-10-18.gz
                         lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-18.gz
+                        lista_rotulo_100_angulo_regre_balb-roseta_2026-10-18.gz
                         modelo_fluore_HUVEC_100_75_50_25_2026-10-18.keras
                         rotulos_treino_fluore_HUVEC_100_75_50_25_2026-10-18.gz
                         rótulos_HUVEC_validação_10%_fluore_2026-10-18.gz
