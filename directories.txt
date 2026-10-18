@@ -424,12 +424,19 @@ C:.
             |   |   
             |   \---save
             |           imagens_HBMEC_validação_10%_fluore_2026-10-17.gz
+            |           imagens_HBMEC_validação_10%_fluore_2026-10-18.gz
             |           imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+            |           imagens_treino_fluore_HBMEC_100_75_50_25_2026-10-18.gz
             |           lista_imagem_100_resized_regre_HBMEC_realce_2026-10-17.gz
+            |           lista_imagem_100_resized_regre_HBMEC_realce_2026-10-18.gz
             |           lista_rotulo_100_resized_regre_balb-roseta_2026-10-17.gz
+            |           lista_rotulo_100_resized_regre_balb-roseta_2026-10-18.gz
             |           modelo_fluore_HBMEC_100_75_50_25_2026-10-17.keras
+            |           modelo_fluore_HBMEC_100_75_50_25_2026-10-18.keras
             |           rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-17.gz
+            |           rotulos_treino_fluore_HBMEC_100_75_50_25_2026-10-18.gz
             |           rótulos_HBMEC_validação_10%_fluore_2026-10-17.gz
+            |           rótulos_HBMEC_validação_10%_fluore_2026-10-18.gz
             |           
             \---realcadas_verde_HUVEC
                 |   realcada_Experiment_HUVEC_GST_v01_ch01_rot0.070038.tif
@@ -473,10 +480,18 @@ C:.
                 |   
                 \---save
                         imagens_HUVEC_validação_10%_fluore_2026-10-17.gz
+                        imagens_HUVEC_validação_10%_fluore_2026-10-18.gz
                         imagens_treino_fluore_HUVEC_100_75_50_25_2026-10-17.gz
+                        imagens_treino_fluore_HUVEC_100_75_50_25_2026-10-18.gz
                         lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
+                        lista_imagem_100_resized_regre_HUVEC_fluo_MFI_2026-10-18.gz
+                        lista_img_100_resized_regre_campo_claro_2026-10-18.gz
                         lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-17.gz
+                        lista_rotulos_100_resized_regre_HUVEC_fluo_MFI_2026-10-18.gz
                         modelo_fluore_HUVEC_100_75_50_25_2026-10-17.keras
+                        modelo_fluore_HUVEC_100_75_50_25_2026-10-18.keras
                         rotulos_treino_fluore_HUVEC_100_75_50_25_2026-10-17.gz
+                        rotulos_treino_fluore_HUVEC_100_75_50_25_2026-10-18.gz
                         rótulos_HUVEC_validação_10%_fluore_2026-10-17.gz
+                        rótulos_HUVEC_validação_10%_fluore_2026-10-18.gz
                         
