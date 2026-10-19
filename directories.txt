@@ -38,6 +38,19 @@ C:.
         |   
         \---data
             +---imagem_conjunto
+            |   |   bland-altman_analysis_cho-745_-_control.png
+            |   |   bland-altman_analysis_cho-745_-_gst.png
+            |   |   bland-altman_analysis_cho-745_-_vir.png
+            |   |   bland-altman_analysis_cho-icam1_-_control.png
+            |   |   bland-altman_analysis_cho-icam1_-_gst.png
+            |   |   bland-altman_analysis_cho-icam1_-_vir.png
+            |   |   sensitivity_analysis_cho-745_-_control.png
+            |   |   sensitivity_analysis_cho-745_-_gst.png
+            |   |   sensitivity_analysis_cho-745_-_vir.png
+            |   |   sensitivity_analysis_cho-icam1_-_control.png
+            |   |   sensitivity_analysis_cho-icam1_-_gst.png
+            |   |   sensitivity_analysis_cho-icam1_-_vir.png
+            |   |   
             |   +---CHO-745
             |   |   +---Controle
             |   |   |   |   Experiment_CHO_745_cntl_CHO_v01_ch01.tif
