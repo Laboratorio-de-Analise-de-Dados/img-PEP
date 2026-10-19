@@ -1,131 +1,125 @@
-# data.lab() — Ambiente de Desenvolvimento Docker
+# Deep Learning-Based Quantification of *Plasmodium falciparum* Cytoadhesion
 
-[![Docker](https://img.shields.io/badge/Docker-20.10+-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Lab%20%2F%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.style=for-the-badge)](LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![TensorFlow / PyTorch](https://img.shields.io/badge/framework-Deep%20Learning-orange.svg)]()
 
-Ambiente Docker padronizado do **data.lab() (Laboratório de Análise de Dados)** configurado para o desenvolvimento acelerado de projetos de Ciência de Dados, Análise de Dados e Machine Learning. 
+Official repository for the research article: **"Deep Learning Approaches for Automated Quantification of *Plasmodium falciparum* Cytoadhesion under Flow Conditions"**.
 
-O repositório disponibiliza contêineres prontos com **Python**, **Jupyter Lab** e as principais bibliotecas científicas pré-instaladas, garantindo reprodutibilidade e eliminando o problema de *"funciona na minha máquina"*.
-
----
-
-## 📌 Índice
-- [Pré-requisitos](#-pré-requisitos)
-- [Estrutura do Repositório](#-estrutura-do-repositório)
-- [Instalação e Configuração](#-instalação-e-configuração)
-- [Como Usar](#-como-usar)
-- [Dependências Pré-instaladas](#-dependências-pré-instaladas)
-- [Como Contribuir](#-como-contribuir)
-- [Autores e Contato](#-autores-e-contato)
-- [Licença](#-licença)
+Repository link: [https://github.com/Laboratorio-de-Analise-de-Dados/img-PEP.git](https://github.com/Laboratorio-de-Analise-de-Dados/img-PEP.git)
 
 ---
 
-## ⚙️ Pré-requisitos
+## 📌 Overview
 
-Antes de iniciar, certifique-se de ter instalado em sua máquina:
+Severe malaria caused by *Plasmodium falciparum* is closely linked to cytoadhesion—the adhesion of infected red blood cells (iRBCs) to endothelial receptors under physiological flow conditions. Traditional manual counting methods are labor-intensive, operator-dependent, and prone to variability.
 
-* [Git](https://git-scm.com/)
-* [Docker](https://docs.docker.com/get-docker/) (versão 20.10 ou superior)
-* [Docker Compose](https://docs.docker.com/compose/install/) (versão v2.0+ ou plugin integrado ao Docker Desktop)
+This repository provides an end-to-end computer vision and Convolutional Neural Network (CNN) pipeline designed to automatically quantify cytoadherent parasites in microfluidic assay images.
+
+### Key Features
+- **Preprocessing Pipeline**: Contrast enhancement, automated segmentation, and ROI extraction to handle varying illumination and artifacts.
+- **Deep Neural Architecture**: Custom/tuned CNN optimized for accurate particle/cell density quantification.
+- **Robust Cross-Validation**: Evaluated using 5-fold cross-validation with quantitative metrics ($R^2$, MSE, MAE).
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📊 Performance Metrics
+
+Across 5-fold cross-validation on the experimental dataset, the model demonstrated high precision and consistency:
+
+| Metric | Mean Performance | 95% Confidence Interval |
+| :--- | :---: | :---: |
+| **Correlation ($R$)** | $0.9017$ | $[0.8387, 0.9647]$ |
+| **Mean Squared Error (MSE)** | $735.67$ | — |
+| **Statistical Significance ($p$-value)** | $p \le 0.01$ | — |
+
+---
+
+## 📁 Repository Structure
 
 ```text
-env-docker/
-├── .github/              # Automações e workflows CI/CD
-├── notebooks/            # Diretório montado para notebooks Jupyter
-├── src/                  # Código-fonte e scripts auxiliares
-├── Dockerfile            # Definição do contêiner e dependências
-├── docker-compose.yml    # Gerenciamento dos serviços e volumes
-├── requirements.txt      # Pacotes Python pré-instalados
-└── README.md             # Documentação do projeto
+img-PEP/
+├── data/
+│   ├── raw/                 # Raw microfluidic assay images (or sample placeholders)
+│   └── processed/           # Preprocessed and cropped ROI datasets
+├── notebooks/
+│   ├── 01_preprocessing.ipynb # Image cleaning, filtering, and augmentation
+│   ├── 02_model_training.ipynb  # CNN training pipeline and cross-validation
+│   └── 03_evaluation.ipynb      # Metrics calculation, regression analysis, and plots
+├── src/
+│   ├── __init__.py
+│   ├── dataset.py           # Data loaders and augmentation logic
+│   ├── model.py             # CNN architecture definitions
+│   └── utils.py             # Helper functions for evaluation metrics
+├── requirements.txt         # Required Python packages
+├── LICENSE                  # Open-source license
+└── README.md                # Repository documentation
 ```
 
 ---
 
-## 🚀 Instalação e Configuração
+## 🚀 Getting Started
 
-Siga os passos abaixo para clonar o repositório e subir o ambiente localmente:
+### Prerequisites
 
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/Laboratorio-de-Analise-de-Dados/env-docker.git
-   cd env-docker
-   ```
+Ensure you have Python 3.8 or higher installed. It is recommended to use a virtual environment or Conda environment.
 
-2. **Copie o arquivo de variáveis de ambiente (se aplicável):**
-   ```bash
-   cp .env.example .env
-   ```
-
-3. **Construa e inicie os contêineres Docker:**
-   ```bash
-   docker compose up -d --build
-   ```
-
----
-
-## 💻 Como Usar
-
-### Acessando o Jupyter Lab
-Após subir o contêiner, acesse o Jupyter Lab pelo navegador através da URL:
-```text
-http://localhost:8888
-```
-*(Caso haja token de acesso configurado, verifique a saída do terminal com o comando `docker compose logs -f`)*.
-
-### Executando comandos dentro do contêiner
-Para rodar scripts em Python ou utilizar o terminal interativo dentro do ambiente isolado:
 ```bash
-docker compose exec app bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### Parando o ambiente
-Para encerrar os serviços sem perder os arquivos salvos nos volumes:
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Laboratorio-de-Analise-de-Dados/img-PEP.git
+   cd img-PEP
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🔬 Usage & Pipeline
+
+### 1. Data Preprocessing
+To prepare raw microscopy images for the CNN:
 ```bash
-docker compose down
+python src/dataset.py --input_dir data/raw --output_dir data/processed
+```
+
+### 2. Model Training & Evaluation
+To run 5-fold cross-validation and output metrics:
+```bash
+python src/model.py --data_dir data/processed --epochs 50 --batch_size 16
 ```
 
 ---
 
-## 🧪 Dependências Pré-instaladas
+## 📄 Citation
 
-O ambiente vem configurado por padrão com a pilha essencial de Ciência de Dados:
+If you find this code or research useful in your work, please cite our manuscript:
 
-* **Manipulação e Análise de Dados:** `pandas`, `numpy`
-* **Visualização:** `matplotlib`, `seaborn`, `plotly`
-* **Machine Learning & Estatística:** `scikit-learn`, `scipy`, `statsmodels`
-* **Ambiente de Trabalho:** `jupyterlab`, `notebook`, `ipykernel`
-
----
-
-## 🤝 Como Contribuir
-
-Contribuições são muito bem-vindas! Se você deseja adicionar um novo pacote, corrigir um bug ou melhorar a documentação:
-
-1. Faça um **Fork** do repositório.
-2. Crie uma branch para a sua feature (`git checkout -b feature/MinhaFeature`).
-3. Faça o **Commit** das suas alterações (`git commit -m 'feat: adiciona biblioteca X'`).
-4. Envie as alterações para a sua branch (`git push origin feature/MinhaFeature`).
-5. Abra um **Pull Request**.
+```bibtex
+@article{ferreira2026deep,
+  title={Deep Learning Approaches for Automated Quantification of Plasmodium falciparum Cytoadhesion under Flow Conditions},
+  author={Ferreira, [Author Name] and Ferraboli, [Author Name] and [Other Authors]},
+  journal={[Journal Name]},
+  year={2026},
+  volume={[Volume]},
+  pages={[Pages]},
+  doi={[DOI]}
+}
+```
 
 ---
 
-## 👥 Autores e Contato
+## ✉️ Contact & Support
 
-Desenvolvido e mantido pela equipe do **Laboratório de Análise de Dados — data.lab()**.
-
-* 🌐 **Website:** [datalab.in.net](https://datalab.in.net/)
-* 📧 **E-mail:** [gfsilveira@gmail.com](mailto:gfsilveira@gmail.com)
-* 🐙 **GitHub:** [@Laboratorio-de-Analise-de-Dados](https://github.com/Laboratorio-de-Analise-de-Dados)
-
----
-
-## 📜 Licença
-
-Este projeto é distribuído sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+**Laboratório de Análise de Dados (LAD)**
+- **Repository Maintainer**: [Laboratorio-de-Analise-de-Dados](https://github.com/Laboratorio-de-Analise-de-Dados)
+- **Issues**: For bugs, questions, or feature requests, please open a GitHub Issue in this repository.
